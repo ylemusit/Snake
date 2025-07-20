@@ -1,0 +1,237 @@
+2025-07-20 23:28:39,641 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 23:28:39,899 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 23:28:39,899 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 23:28:42,002 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:28:42,050 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:28:42,050 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:28:42,051 - game.board - INFO - Iniciando partida
+2025-07-20 23:28:42,051 - __main__ - CRITICAL - Error crítico: 'GameBoard' object has no attribute '_draw_grid'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 29, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 85, in run
+    button.handle_event(event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\button.py", line 39, in handle_event
+    self.action()
+    ~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 70, in start_game
+    return game.run()
+           ~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 101, in run
+    self.draw()
+    ~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 73, in draw
+    self._draw_grid()
+    ^^^^^^^^^^^^^^^
+AttributeError: 'GameBoard' object has no attribute '_draw_grid'
+2025-07-20 23:28:42,141 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 23:29:10,332 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 23:29:10,607 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 23:29:10,608 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 23:29:14,286 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:29:14,321 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:29:14,321 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:29:14,321 - game.board - INFO - Iniciando partida
+2025-07-20 23:29:14,322 - __main__ - CRITICAL - Error crítico: 'GameBoard' object has no attribute '_draw_grid'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 29, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 85, in run
+    button.handle_event(event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\button.py", line 39, in handle_event
+    self.action()
+    ~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 70, in start_game
+    return game.run()
+           ~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 101, in run
+    self.draw()
+    ~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 73, in draw
+    self._draw_grid()
+    ^^^^^^^^^^^^^^^
+AttributeError: 'GameBoard' object has no attribute '_draw_grid'
+2025-07-20 23:29:14,406 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 23:29:57,134 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 23:29:57,403 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 23:29:57,404 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 23:29:59,478 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:29:59,528 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:29:59,528 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:29:59,528 - game.board - INFO - Tablero de juego inicializado
+2025-07-20 23:29:59,529 - game.board - INFO - Iniciando partida
+2025-07-20 23:29:59,529 - __main__ - CRITICAL - Error crítico: 'Fruit' object has no attribute 'draw'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 29, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 85, in run
+    button.handle_event(event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\button.py", line 39, in handle_event
+    self.action()
+    ~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 70, in start_game
+    return game.run()
+           ~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 108, in run
+    self.draw()
+    ~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 81, in draw
+    self.fruit.draw()
+    ^^^^^^^^^^^^^^^
+AttributeError: 'Fruit' object has no attribute 'draw'
+2025-07-20 23:29:59,624 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 23:31:19,187 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 23:31:19,448 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 23:31:19,449 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 23:31:21,857 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:31:21,921 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:31:21,921 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:31:21,921 - game.board - INFO - Tablero de juego inicializado
+2025-07-20 23:31:21,922 - game.board - INFO - Iniciando partida
+2025-07-20 23:31:23,766 - __main__ - CRITICAL - Error crítico: 'Snake' object has no attribute 'change_direction'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 29, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 85, in run
+    button.handle_event(event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\button.py", line 39, in handle_event
+    self.action()
+    ~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 70, in start_game
+    return game.run()
+           ~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 104, in run
+    self.handle_events()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 37, in handle_events
+    self._handle_keydown(event.key)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 49, in _handle_keydown
+    self.snake.change_direction(key_directions[key])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Snake' object has no attribute 'change_direction'
+2025-07-20 23:31:23,871 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 23:31:28,684 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 23:31:28,973 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 23:31:28,973 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 23:31:30,515 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:31:30,555 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:31:30,556 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:31:30,556 - game.board - INFO - Tablero de juego inicializado
+2025-07-20 23:31:30,556 - game.board - INFO - Iniciando partida
+2025-07-20 23:31:33,524 - game.board - INFO - Juego terminado. Puntaje final: 0
+2025-07-20 23:31:34,197 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:31:34,198 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:31:34,198 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:31:34,199 - game.board - INFO - Tablero de juego inicializado
+2025-07-20 23:31:34,200 - game.board - INFO - Iniciando partida
+2025-07-20 23:31:35,033 - __main__ - CRITICAL - Error crítico: 'Snake' object has no attribute 'change_direction'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 29, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 85, in run
+    button.handle_event(event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\button.py", line 39, in handle_event
+    self.action()
+    ~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 70, in start_game
+    return game.run()
+           ~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 104, in run
+    self.handle_events()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 37, in handle_events
+    self._handle_keydown(event.key)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 49, in _handle_keydown
+    self.snake.change_direction(key_directions[key])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Snake' object has no attribute 'change_direction'
+2025-07-20 23:31:35,130 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 23:33:15,814 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 23:33:16,074 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 23:33:16,074 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 23:33:17,266 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:33:17,330 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:33:17,331 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:33:17,331 - game.board - INFO - Tablero de juego inicializado
+2025-07-20 23:33:17,331 - game.board - INFO - Iniciando partida
+2025-07-20 23:33:23,450 - game.board - INFO - Nuevo puntaje: 10
+2025-07-20 23:33:27,128 - game.board - INFO - Nuevo puntaje: 20
+2025-07-20 23:33:30,988 - game.board - INFO - Nuevo puntaje: 30
+2025-07-20 23:33:36,099 - game.board - INFO - Nuevo puntaje: 40
+2025-07-20 23:33:38,419 - game.board - INFO - Nuevo puntaje: 50
+2025-07-20 23:33:40,291 - game.board - INFO - Nuevo puntaje: 60
+2025-07-20 23:33:47,256 - game.board - INFO - Nuevo puntaje: 70
+2025-07-20 23:33:50,207 - game.board - INFO - Nuevo puntaje: 80
+2025-07-20 23:33:55,919 - game.board - INFO - Juego terminado. Puntaje final: 80
+2025-07-20 23:33:57,237 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:33:57,238 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:33:57,238 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:33:57,239 - game.board - INFO - Tablero de juego inicializado
+2025-07-20 23:33:57,239 - game.board - INFO - Iniciando partida
+2025-07-20 23:34:02,967 - game.board - INFO - Nuevo puntaje: 10
+2025-07-20 23:34:08,614 - game.board - INFO - Nuevo puntaje: 20
+2025-07-20 23:34:11,561 - game.board - INFO - Nuevo puntaje: 30
+2025-07-20 23:34:15,668 - game.board - INFO - Nuevo puntaje: 40
+2025-07-20 23:34:41,923 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 23:40:01,234 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 23:40:01,543 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 23:40:01,544 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 23:40:08,152 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:40:08,227 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:40:08,227 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:40:08,227 - game.board - INFO - Tablero de juego inicializado
+2025-07-20 23:40:08,228 - game.board - INFO - Iniciando partida
+2025-07-20 23:40:09,957 - game.board - INFO - Nuevo puntaje: 10
+2025-07-20 23:40:12,613 - game.board - INFO - Nuevo puntaje: 20
+2025-07-20 23:40:16,310 - game.board - INFO - Nuevo puntaje: 30
+2025-07-20 23:40:16,460 - game.board - INFO - Juego terminado. Puntaje final: 30
+2025-07-20 23:40:18,494 - ui.button - INFO - Botón clickeado: SALIR
+2025-07-20 23:40:18,495 - ui.menu - INFO - Saliendo del juego
+2025-07-20 23:40:18,596 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 23:40:54,347 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 23:40:54,614 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 23:40:54,614 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 23:40:57,609 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:40:57,647 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:40:57,647 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:40:57,647 - game.board - INFO - Tablero de juego inicializado
+2025-07-20 23:40:57,648 - game.board - INFO - Iniciando partida
+2025-07-20 23:41:01,194 - game.board - INFO - Nuevo puntaje: 10
+2025-07-20 23:41:06,931 - game.board - INFO - Nuevo puntaje: 20
+2025-07-20 23:41:37,984 - ui.button - INFO - Botón clickeado: SALIR
+2025-07-20 23:41:37,985 - ui.menu - INFO - Saliendo del juego
+2025-07-20 23:41:38,101 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 23:41:44,763 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 23:41:45,033 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 23:41:45,033 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 23:41:51,176 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:41:51,224 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:41:51,224 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:41:51,225 - game.board - INFO - Tablero de juego inicializado
+2025-07-20 23:41:51,225 - game.board - INFO - Iniciando partida
+2025-07-20 23:41:53,555 - game.board - INFO - Nuevo puntaje: 10
+2025-07-20 23:41:57,831 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 23:44:30,008 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 23:44:30,272 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 23:44:30,273 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 23:44:32,147 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:44:32,200 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:44:32,200 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:44:32,200 - game.board - INFO - Tablero de juego inicializado
+2025-07-20 23:44:32,201 - game.board - INFO - Iniciando partida
+2025-07-20 23:44:34,852 - game.board - INFO - Nuevo puntaje: 10
+2025-07-20 23:44:37,866 - ui.button - INFO - Botón clickeado: SALIR
+2025-07-20 23:44:37,866 - ui.menu - INFO - Saliendo del juego
+2025-07-20 23:44:37,965 - __main__ - INFO - Juego terminado correctamente

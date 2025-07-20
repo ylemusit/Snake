@@ -1,0 +1,28 @@
+Estructura
+
+Sneak/
+├── main.py
+├── game/
+│   ├── __init__.py
+│   ├── snake.py
+│   ├── fruit.py
+│   ├── board.py
+│   └── collision.py
+├── ui/
+│   ├── __init__.py
+│   ├── menu.py
+│   ├── game_over.py
+│   └── button.py
+├── utils/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── logger.py
+│   └── records.py
+├── assets/
+│   ├── fonts/
+│   ├── images/
+│   └── audio/
+├── data/
+│   ├── settings.yaml
+│   └── records.txt
+└── requirements.txt

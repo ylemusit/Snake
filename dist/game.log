@@ -1,0 +1,42 @@
+2025-07-20 23:35:56,743 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 23:35:56,996 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 23:35:56,996 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 23:35:59,196 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:35:59,246 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:35:59,246 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:35:59,247 - game.board - INFO - Tablero de juego inicializado
+2025-07-20 23:35:59,247 - game.board - INFO - Iniciando partida
+2025-07-20 23:36:05,341 - game.board - INFO - Nuevo puntaje: 10
+2025-07-20 23:36:12,313 - game.board - INFO - Nuevo puntaje: 20
+2025-07-20 23:36:21,852 - game.board - INFO - Nuevo puntaje: 30
+2025-07-20 23:36:24,461 - game.board - INFO - Nuevo puntaje: 40
+2025-07-20 23:36:31,434 - game.board - INFO - Nuevo puntaje: 50
+2025-07-20 23:36:32,826 - game.board - INFO - Nuevo puntaje: 60
+2025-07-20 23:36:37,600 - game.board - INFO - Nuevo puntaje: 70
+2025-07-20 23:36:41,031 - game.board - INFO - Nuevo puntaje: 80
+2025-07-20 23:36:47,321 - game.board - INFO - Nuevo puntaje: 90
+2025-07-20 23:36:52,547 - game.board - INFO - Nuevo puntaje: 100
+2025-07-20 23:36:59,647 - game.board - INFO - Nuevo puntaje: 110
+2025-07-20 23:37:07,362 - game.board - INFO - Nuevo puntaje: 120
+2025-07-20 23:37:15,021 - game.board - INFO - Nuevo puntaje: 130
+2025-07-20 23:37:18,117 - game.board - INFO - Nuevo puntaje: 140
+2025-07-20 23:37:21,024 - ui.button - INFO - Botón clickeado: SALIR
+2025-07-20 23:37:21,024 - ui.menu - INFO - Saliendo del juego
+2025-07-20 23:37:21,145 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 23:46:26,519 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 23:46:26,766 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 23:46:26,766 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 23:46:43,077 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-20 23:46:43,147 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 23:46:43,148 - game.snake - INFO - Serpiente inicializada
+2025-07-20 23:46:43,148 - game.board - INFO - Tablero de juego inicializado
+2025-07-20 23:46:43,148 - game.board - INFO - Iniciando partida
+2025-07-20 23:46:45,559 - game.board - INFO - Nuevo puntaje: 10
+2025-07-20 23:46:48,877 - game.board - INFO - Nuevo puntaje: 20
+2025-07-20 23:46:54,071 - game.board - INFO - Nuevo puntaje: 30
+2025-07-20 23:46:56,188 - game.board - INFO - Nuevo puntaje: 40
+2025-07-20 23:47:02,490 - game.board - INFO - Nuevo puntaje: 50
+2025-07-20 23:47:08,985 - game.board - INFO - Nuevo puntaje: 60
+2025-07-20 23:47:17,425 - game.board - INFO - Nuevo puntaje: 70
+2025-07-20 23:47:45,095 - game.board - INFO - Nuevo puntaje: 80
+2025-07-20 23:57:24,189 - __main__ - INFO - Juego terminado correctamente

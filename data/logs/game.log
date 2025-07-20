@@ -1,0 +1,1612 @@
+2025-07-20 21:51:09,724 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 21:51:10,015 - ui.button - DEBUG - Botón creado: Jugar
+2025-07-20 21:51:10,016 - ui.button - DEBUG - Botón creado: Salir
+2025-07-20 21:51:10,019 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 21:51:10,022 - __main__ - CRITICAL - Error crítico: 'GameConfig' object has no attribute 'clock'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 28, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 84, in run
+    self.config.clock.tick(self.config.fps)
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'GameConfig' object has no attribute 'clock'
+2025-07-20 21:51:10,097 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 22:02:39,486 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 22:02:39,765 - ui.button - DEBUG - Botón creado: Jugar
+2025-07-20 22:02:39,766 - ui.button - DEBUG - Botón creado: Salir
+2025-07-20 22:02:39,768 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 22:02:42,622 - ui.button - INFO - Botón clickeado: Jugar
+2025-07-20 22:02:42,636 - __main__ - CRITICAL - Error crítico: No module named 'game.snake'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 28, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 77, in run
+    button.handle_event(event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\button.py", line 57, in handle_event
+    self.action()
+    ~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 56, in start_game
+    from game.board import GameBoard
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 6, in <module>
+    from .snake import Snake
+ModuleNotFoundError: No module named 'game.snake'
+2025-07-20 22:02:42,730 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 22:02:55,381 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 22:02:55,679 - ui.button - DEBUG - Botón creado: Jugar
+2025-07-20 22:02:55,680 - ui.button - DEBUG - Botón creado: Salir
+2025-07-20 22:02:55,682 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 22:02:57,770 - ui.button - INFO - Botón clickeado: Salir
+2025-07-20 22:02:57,771 - ui.menu - INFO - Saliendo del juego desde el menú
+2025-07-20 22:02:57,893 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 22:03:00,707 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 22:03:00,999 - ui.button - DEBUG - Botón creado: Jugar
+2025-07-20 22:03:01,000 - ui.button - DEBUG - Botón creado: Salir
+2025-07-20 22:03:01,003 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 22:03:02,661 - ui.button - INFO - Botón clickeado: Jugar
+2025-07-20 22:03:02,664 - __main__ - CRITICAL - Error crítico: No module named 'game.snake'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 28, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 77, in run
+    button.handle_event(event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\button.py", line 57, in handle_event
+    self.action()
+    ~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 56, in start_game
+    from game.board import GameBoard
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 6, in <module>
+    from .snake import Snake
+ModuleNotFoundError: No module named 'game.snake'
+2025-07-20 22:03:02,733 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 22:05:16,559 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 22:05:16,869 - ui.button - DEBUG - Botón creado: Jugar
+2025-07-20 22:05:16,870 - ui.button - DEBUG - Botón creado: Salir
+2025-07-20 22:05:16,872 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 22:05:18,550 - ui.button - INFO - Botón clickeado: Jugar
+2025-07-20 22:05:18,573 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 22:05:18,573 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:05:18,574 - game.fruit - DEBUG - Fruta generada en (22, 26)
+2025-07-20 22:05:18,574 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:05:18,574 - game.fruit - DEBUG - Fruta generada en (5, 9)
+2025-07-20 22:05:18,575 - game.board - INFO - Iniciando partida
+2025-07-20 22:05:18,575 - __main__ - CRITICAL - Error crítico: 'Snake' object has no attribute 'move'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 28, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 77, in run
+    button.handle_event(event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\button.py", line 57, in handle_event
+    self.action()
+    ~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 59, in start_game
+    return game.run()
+           ~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 107, in run
+    final_score = self.update()
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 47, in update
+    self.snake.move(current_time)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'Snake' object has no attribute 'move'
+2025-07-20 22:05:18,661 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 22:07:04,691 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 22:07:04,972 - ui.button - DEBUG - Botón creado: Jugar
+2025-07-20 22:07:04,973 - ui.button - DEBUG - Botón creado: Salir
+2025-07-20 22:07:04,975 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 22:07:06,911 - ui.button - INFO - Botón clickeado: Jugar
+2025-07-20 22:07:06,941 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 22:07:06,941 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:07:06,942 - game.fruit - DEBUG - Fruta generada en (32, 19)
+2025-07-20 22:07:06,942 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:07:06,942 - game.fruit - DEBUG - Fruta generada en (23, 16)
+2025-07-20 22:07:06,943 - game.board - INFO - Iniciando partida
+2025-07-20 22:07:06,943 - __main__ - CRITICAL - Error crítico: 'Snake' object has no attribute 'move'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 28, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 77, in run
+    button.handle_event(event)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\button.py", line 57, in handle_event
+    self.action()
+    ~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 59, in start_game
+    return game.run()
+           ~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 110, in run
+    final_score = self.update()
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\game\board.py", line 50, in update
+    self.snake.move(current_time)
+    ^^^^^^^^^^^^^^^
+AttributeError: 'Snake' object has no attribute 'move'
+2025-07-20 22:07:07,033 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 22:15:56,443 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 22:15:56,717 - ui.button - DEBUG - Botón creado: Jugar
+2025-07-20 22:15:56,718 - ui.button - DEBUG - Botón creado: Salir
+2025-07-20 22:15:56,720 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 22:15:59,597 - ui.button - INFO - Botón clickeado: Jugar
+2025-07-20 22:15:59,684 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 22:15:59,684 - game.snake - DEBUG - Usando configuración por defecto
+2025-07-20 22:15:59,684 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:15:59,685 - game.snake - INFO - Serpiente inicializada
+2025-07-20 22:15:59,685 - game.fruit - DEBUG - Fruta generada en (10, 17)
+2025-07-20 22:15:59,685 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:15:59,685 - game.fruit - DEBUG - Fruta generada en (21, 20)
+2025-07-20 22:15:59,685 - game.board - INFO - Iniciando partida
+2025-07-20 22:15:59,686 - game.snake - DEBUG - Movido a (21, 15). Longitud: 3
+2025-07-20 22:15:59,847 - game.snake - DEBUG - Movido a (22, 15). Longitud: 3
+2025-07-20 22:16:00,011 - game.snake - DEBUG - Movido a (23, 15). Longitud: 3
+2025-07-20 22:16:00,162 - game.snake - DEBUG - Movido a (24, 15). Longitud: 3
+2025-07-20 22:16:00,313 - game.snake - DEBUG - Movido a (25, 15). Longitud: 3
+2025-07-20 22:16:00,479 - game.snake - DEBUG - Movido a (26, 15). Longitud: 3
+2025-07-20 22:16:00,645 - game.snake - DEBUG - Movido a (27, 15). Longitud: 3
+2025-07-20 22:16:00,796 - game.snake - DEBUG - Movido a (28, 15). Longitud: 3
+2025-07-20 22:16:00,946 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:00,946 - game.snake - DEBUG - Movido a (28, 14). Longitud: 3
+2025-07-20 22:16:01,111 - game.snake - DEBUG - Movido a (28, 13). Longitud: 3
+2025-07-20 22:16:01,276 - game.snake - DEBUG - Movido a (28, 12). Longitud: 3
+2025-07-20 22:16:01,326 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:01,426 - game.snake - DEBUG - Movido a (27, 12). Longitud: 3
+2025-07-20 22:16:01,579 - game.snake - DEBUG - Movido a (26, 12). Longitud: 3
+2025-07-20 22:16:01,729 - game.snake - DEBUG - Movido a (25, 12). Longitud: 3
+2025-07-20 22:16:01,882 - game.snake - DEBUG - Movido a (24, 12). Longitud: 3
+2025-07-20 22:16:02,034 - game.snake - DEBUG - Movido a (23, 12). Longitud: 3
+2025-07-20 22:16:02,186 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:16:02,187 - game.snake - DEBUG - Movido a (23, 13). Longitud: 3
+2025-07-20 22:16:02,337 - game.snake - DEBUG - Movido a (23, 14). Longitud: 3
+2025-07-20 22:16:02,488 - game.snake - DEBUG - Movido a (23, 15). Longitud: 3
+2025-07-20 22:16:02,637 - game.snake - DEBUG - Movido a (23, 16). Longitud: 3
+2025-07-20 22:16:02,788 - game.snake - DEBUG - Movido a (23, 17). Longitud: 3
+2025-07-20 22:16:02,938 - game.snake - DEBUG - Movido a (23, 18). Longitud: 3
+2025-07-20 22:16:03,091 - game.snake - DEBUG - Movido a (23, 19). Longitud: 3
+2025-07-20 22:16:03,243 - game.snake - DEBUG - Movido a (23, 20). Longitud: 3
+2025-07-20 22:16:03,361 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:03,408 - game.snake - DEBUG - Movido a (22, 20). Longitud: 3
+2025-07-20 22:16:03,559 - game.snake - DEBUG - Movido a (21, 20). Longitud: 3
+2025-07-20 22:16:03,560 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:16:03,560 - game.fruit - DEBUG - Fruta generada en (31, 9)
+2025-07-20 22:16:03,560 - game.board - INFO - Nuevo puntaje: 10
+2025-07-20 22:16:03,712 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:16:03,712 - game.snake - DEBUG - Movido a (20, 20). Longitud: 4
+2025-07-20 22:16:03,876 - game.snake - DEBUG - Movido a (19, 20). Longitud: 4
+2025-07-20 22:16:03,894 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:04,026 - game.snake - DEBUG - Movido a (19, 19). Longitud: 4
+2025-07-20 22:16:04,179 - game.snake - DEBUG - Movido a (19, 18). Longitud: 4
+2025-07-20 22:16:04,329 - game.snake - DEBUG - Movido a (19, 17). Longitud: 4
+2025-07-20 22:16:04,480 - game.snake - DEBUG - Movido a (19, 16). Longitud: 4
+2025-07-20 22:16:04,630 - game.snake - DEBUG - Movido a (19, 15). Longitud: 4
+2025-07-20 22:16:04,782 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:16:04,783 - game.snake - DEBUG - Movido a (20, 15). Longitud: 4
+2025-07-20 22:16:04,935 - game.snake - DEBUG - Movido a (21, 15). Longitud: 4
+2025-07-20 22:16:05,086 - game.snake - DEBUG - Movido a (22, 15). Longitud: 4
+2025-07-20 22:16:05,235 - game.snake - DEBUG - Movido a (23, 15). Longitud: 4
+2025-07-20 22:16:05,386 - game.snake - DEBUG - Movido a (24, 15). Longitud: 4
+2025-07-20 22:16:05,550 - game.snake - DEBUG - Movido a (25, 15). Longitud: 4
+2025-07-20 22:16:05,712 - game.snake - DEBUG - Movido a (26, 15). Longitud: 4
+2025-07-20 22:16:05,876 - game.snake - DEBUG - Movido a (27, 15). Longitud: 4
+2025-07-20 22:16:06,041 - game.snake - DEBUG - Movido a (28, 15). Longitud: 4
+2025-07-20 22:16:06,191 - game.snake - DEBUG - Movido a (29, 15). Longitud: 4
+2025-07-20 22:16:06,341 - game.snake - DEBUG - Movido a (30, 15). Longitud: 4
+2025-07-20 22:16:06,476 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:06,492 - game.snake - DEBUG - Movido a (30, 14). Longitud: 4
+2025-07-20 22:16:06,644 - game.snake - DEBUG - Movido a (30, 13). Longitud: 4
+2025-07-20 22:16:06,794 - game.snake - DEBUG - Movido a (30, 12). Longitud: 4
+2025-07-20 22:16:06,944 - game.snake - DEBUG - Movido a (30, 11). Longitud: 4
+2025-07-20 22:16:07,094 - game.snake - DEBUG - Movido a (30, 10). Longitud: 4
+2025-07-20 22:16:07,128 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:16:07,247 - game.snake - DEBUG - Movido a (31, 10). Longitud: 4
+2025-07-20 22:16:07,399 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:07,399 - game.snake - DEBUG - Movido a (31, 9). Longitud: 4
+2025-07-20 22:16:07,400 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:16:07,400 - game.fruit - DEBUG - Fruta generada en (37, 11)
+2025-07-20 22:16:07,400 - game.board - INFO - Nuevo puntaje: 20
+2025-07-20 22:16:07,548 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:16:07,549 - game.snake - DEBUG - Movido a (31, 8). Longitud: 5
+2025-07-20 22:16:07,714 - game.snake - DEBUG - Movido a (31, 7). Longitud: 5
+2025-07-20 22:16:07,864 - game.snake - DEBUG - Movido a (31, 6). Longitud: 5
+2025-07-20 22:16:07,966 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:16:08,016 - game.snake - DEBUG - Movido a (32, 6). Longitud: 5
+2025-07-20 22:16:08,180 - game.snake - DEBUG - Movido a (33, 6). Longitud: 5
+2025-07-20 22:16:08,332 - game.snake - DEBUG - Movido a (34, 6). Longitud: 5
+2025-07-20 22:16:08,483 - game.snake - DEBUG - Movido a (35, 6). Longitud: 5
+2025-07-20 22:16:08,635 - game.snake - DEBUG - Movido a (36, 6). Longitud: 5
+2025-07-20 22:16:08,786 - game.snake - DEBUG - Movido a (37, 6). Longitud: 5
+2025-07-20 22:16:08,834 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:16:08,951 - game.snake - DEBUG - Movido a (37, 7). Longitud: 5
+2025-07-20 22:16:09,102 - game.snake - DEBUG - Movido a (37, 8). Longitud: 5
+2025-07-20 22:16:09,268 - game.snake - DEBUG - Movido a (37, 9). Longitud: 5
+2025-07-20 22:16:09,433 - game.snake - DEBUG - Movido a (37, 10). Longitud: 5
+2025-07-20 22:16:09,583 - game.snake - DEBUG - Movido a (37, 11). Longitud: 5
+2025-07-20 22:16:09,584 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:16:09,584 - game.fruit - DEBUG - Fruta generada en (15, 4)
+2025-07-20 22:16:09,584 - game.board - INFO - Nuevo puntaje: 30
+2025-07-20 22:16:09,734 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:16:09,734 - game.snake - DEBUG - Movido a (37, 12). Longitud: 6
+2025-07-20 22:16:09,885 - game.snake - DEBUG - Movido a (37, 13). Longitud: 6
+2025-07-20 22:16:10,036 - game.snake - DEBUG - Movido a (37, 14). Longitud: 6
+2025-07-20 22:16:10,069 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:10,186 - game.snake - DEBUG - Movido a (36, 14). Longitud: 6
+2025-07-20 22:16:10,305 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:10,338 - game.snake - DEBUG - Movido a (36, 13). Longitud: 6
+2025-07-20 22:16:10,503 - game.snake - DEBUG - Movido a (36, 12). Longitud: 6
+2025-07-20 22:16:10,668 - game.snake - DEBUG - Movido a (36, 11). Longitud: 6
+2025-07-20 22:16:10,818 - game.snake - DEBUG - Movido a (36, 10). Longitud: 6
+2025-07-20 22:16:10,980 - game.snake - DEBUG - Movido a (36, 9). Longitud: 6
+2025-07-20 22:16:11,135 - game.snake - DEBUG - Movido a (36, 8). Longitud: 6
+2025-07-20 22:16:11,300 - game.snake - DEBUG - Movido a (36, 7). Longitud: 6
+2025-07-20 22:16:11,453 - game.snake - DEBUG - Movido a (36, 6). Longitud: 6
+2025-07-20 22:16:11,603 - game.snake - DEBUG - Movido a (36, 5). Longitud: 6
+2025-07-20 22:16:11,720 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:11,768 - game.snake - DEBUG - Movido a (35, 5). Longitud: 6
+2025-07-20 22:16:11,920 - game.snake - DEBUG - Movido a (34, 5). Longitud: 6
+2025-07-20 22:16:12,070 - game.snake - DEBUG - Movido a (33, 5). Longitud: 6
+2025-07-20 22:16:12,189 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:12,223 - game.snake - DEBUG - Movido a (33, 4). Longitud: 6
+2025-07-20 22:16:12,308 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:12,373 - game.snake - DEBUG - Movido a (32, 4). Longitud: 6
+2025-07-20 22:16:12,538 - game.snake - DEBUG - Movido a (31, 4). Longitud: 6
+2025-07-20 22:16:12,692 - game.snake - DEBUG - Movido a (30, 4). Longitud: 6
+2025-07-20 22:16:12,845 - game.snake - DEBUG - Movido a (29, 4). Longitud: 6
+2025-07-20 22:16:12,996 - game.snake - DEBUG - Movido a (28, 4). Longitud: 6
+2025-07-20 22:16:13,160 - game.snake - DEBUG - Movido a (27, 4). Longitud: 6
+2025-07-20 22:16:13,310 - game.snake - DEBUG - Movido a (26, 4). Longitud: 6
+2025-07-20 22:16:13,475 - game.snake - DEBUG - Movido a (25, 4). Longitud: 6
+2025-07-20 22:16:13,626 - game.snake - DEBUG - Movido a (24, 4). Longitud: 6
+2025-07-20 22:16:13,779 - game.snake - DEBUG - Movido a (23, 4). Longitud: 6
+2025-07-20 22:16:13,932 - game.snake - DEBUG - Movido a (22, 4). Longitud: 6
+2025-07-20 22:16:14,082 - game.snake - DEBUG - Movido a (21, 4). Longitud: 6
+2025-07-20 22:16:14,234 - game.snake - DEBUG - Movido a (20, 4). Longitud: 6
+2025-07-20 22:16:14,384 - game.snake - DEBUG - Movido a (19, 4). Longitud: 6
+2025-07-20 22:16:14,535 - game.snake - DEBUG - Movido a (18, 4). Longitud: 6
+2025-07-20 22:16:14,698 - game.snake - DEBUG - Movido a (17, 4). Longitud: 6
+2025-07-20 22:16:14,852 - game.snake - DEBUG - Movido a (16, 4). Longitud: 6
+2025-07-20 22:16:15,005 - game.snake - DEBUG - Movido a (15, 4). Longitud: 6
+2025-07-20 22:16:15,005 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:16:15,006 - game.fruit - DEBUG - Fruta generada en (6, 3)
+2025-07-20 22:16:15,006 - game.board - INFO - Nuevo puntaje: 40
+2025-07-20 22:16:15,124 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:16:15,158 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:16:15,158 - game.snake - DEBUG - Movido a (15, 5). Longitud: 7
+2025-07-20 22:16:15,322 - game.snake - DEBUG - Movido a (15, 6). Longitud: 7
+2025-07-20 22:16:15,356 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:16:15,473 - game.snake - DEBUG - Movido a (15, 7). Longitud: 7
+2025-07-20 22:16:15,490 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:15,626 - game.snake - DEBUG - Movido a (14, 7). Longitud: 7
+2025-07-20 22:16:15,660 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:15,776 - game.snake - DEBUG - Movido a (14, 6). Longitud: 7
+2025-07-20 22:16:15,929 - game.snake - DEBUG - Movido a (14, 5). Longitud: 7
+2025-07-20 22:16:16,080 - game.snake - DEBUG - Movido a (14, 4). Longitud: 7
+2025-07-20 22:16:16,231 - game.snake - DEBUG - Movido a (14, 3). Longitud: 7
+2025-07-20 22:16:16,385 - game.snake - DEBUG - Movido a (14, 2). Longitud: 7
+2025-07-20 22:16:16,402 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:16,535 - game.snake - DEBUG - Movido a (13, 2). Longitud: 7
+2025-07-20 22:16:16,685 - game.snake - DEBUG - Movido a (12, 2). Longitud: 7
+2025-07-20 22:16:16,836 - game.snake - DEBUG - Movido a (11, 2). Longitud: 7
+2025-07-20 22:16:16,988 - game.snake - DEBUG - Movido a (10, 2). Longitud: 7
+2025-07-20 22:16:17,141 - game.snake - DEBUG - Movido a (9, 2). Longitud: 7
+2025-07-20 22:16:17,306 - game.snake - DEBUG - Movido a (8, 2). Longitud: 7
+2025-07-20 22:16:17,460 - game.snake - DEBUG - Movido a (7, 2). Longitud: 7
+2025-07-20 22:16:17,576 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:16:17,625 - game.snake - DEBUG - Movido a (7, 3). Longitud: 7
+2025-07-20 22:16:17,790 - game.snake - DEBUG - Movido a (7, 4). Longitud: 7
+2025-07-20 22:16:17,907 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:17,940 - game.snake - DEBUG - Movido a (6, 4). Longitud: 7
+2025-07-20 22:16:18,104 - game.snake - DEBUG - Movido a (5, 4). Longitud: 7
+2025-07-20 22:16:18,270 - game.snake - DEBUG - Movido a (4, 4). Longitud: 7
+2025-07-20 22:16:18,422 - game.snake - DEBUG - Movido a (3, 4). Longitud: 7
+2025-07-20 22:16:18,539 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:16:18,586 - game.snake - DEBUG - Movido a (3, 5). Longitud: 7
+2025-07-20 22:16:18,723 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:16:18,740 - game.snake - DEBUG - Movido a (4, 5). Longitud: 7
+2025-07-20 22:16:18,893 - game.snake - DEBUG - Movido a (5, 5). Longitud: 7
+2025-07-20 22:16:19,059 - game.snake - DEBUG - Movido a (6, 5). Longitud: 7
+2025-07-20 22:16:19,210 - game.snake - DEBUG - Movido a (7, 5). Longitud: 7
+2025-07-20 22:16:19,360 - game.snake - DEBUG - Movido a (8, 5). Longitud: 7
+2025-07-20 22:16:19,378 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:19,511 - game.snake - DEBUG - Movido a (8, 4). Longitud: 7
+2025-07-20 22:16:19,578 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:19,674 - game.snake - DEBUG - Movido a (7, 4). Longitud: 7
+2025-07-20 22:16:19,824 - game.snake - DEBUG - Movido a (6, 4). Longitud: 7
+2025-07-20 22:16:19,988 - game.snake - DEBUG - Movido a (5, 4). Longitud: 7
+2025-07-20 22:16:20,153 - game.snake - DEBUG - Movido a (4, 4). Longitud: 7
+2025-07-20 22:16:20,303 - game.snake - DEBUG - Movido a (3, 4). Longitud: 7
+2025-07-20 22:16:20,362 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:20,462 - game.snake - DEBUG - Movido a (3, 3). Longitud: 7
+2025-07-20 22:16:20,496 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:16:20,614 - game.snake - DEBUG - Movido a (4, 3). Longitud: 7
+2025-07-20 22:16:20,764 - game.snake - DEBUG - Movido a (5, 3). Longitud: 7
+2025-07-20 22:16:20,913 - game.snake - DEBUG - Movido a (6, 3). Longitud: 7
+2025-07-20 22:16:20,914 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:16:20,915 - game.fruit - DEBUG - Fruta generada en (25, 21)
+2025-07-20 22:16:20,916 - game.board - INFO - Nuevo puntaje: 50
+2025-07-20 22:16:21,079 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:16:21,080 - game.snake - DEBUG - Movido a (7, 3). Longitud: 8
+2025-07-20 22:16:21,230 - game.snake - DEBUG - Movido a (8, 3). Longitud: 8
+2025-07-20 22:16:21,396 - game.snake - DEBUG - Movido a (9, 3). Longitud: 8
+2025-07-20 22:16:21,550 - game.snake - DEBUG - Movido a (10, 3). Longitud: 8
+2025-07-20 22:16:21,715 - game.snake - DEBUG - Movido a (11, 3). Longitud: 8
+2025-07-20 22:16:21,865 - game.snake - DEBUG - Movido a (12, 3). Longitud: 8
+2025-07-20 22:16:22,016 - game.snake - DEBUG - Movido a (13, 3). Longitud: 8
+2025-07-20 22:16:22,166 - game.snake - DEBUG - Movido a (14, 3). Longitud: 8
+2025-07-20 22:16:22,316 - game.snake - DEBUG - Movido a (15, 3). Longitud: 8
+2025-07-20 22:16:22,467 - game.snake - DEBUG - Movido a (16, 3). Longitud: 8
+2025-07-20 22:16:22,620 - game.snake - DEBUG - Movido a (17, 3). Longitud: 8
+2025-07-20 22:16:22,771 - game.snake - DEBUG - Movido a (18, 3). Longitud: 8
+2025-07-20 22:16:22,936 - game.snake - DEBUG - Movido a (19, 3). Longitud: 8
+2025-07-20 22:16:23,100 - game.snake - DEBUG - Movido a (20, 3). Longitud: 8
+2025-07-20 22:16:23,252 - game.snake - DEBUG - Movido a (21, 3). Longitud: 8
+2025-07-20 22:16:23,418 - game.snake - DEBUG - Movido a (22, 3). Longitud: 8
+2025-07-20 22:16:23,569 - game.snake - DEBUG - Movido a (23, 3). Longitud: 8
+2025-07-20 22:16:23,720 - game.snake - DEBUG - Movido a (24, 3). Longitud: 8
+2025-07-20 22:16:23,870 - game.snake - DEBUG - Movido a (25, 3). Longitud: 8
+2025-07-20 22:16:23,921 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:16:24,020 - game.snake - DEBUG - Movido a (25, 4). Longitud: 8
+2025-07-20 22:16:24,185 - game.snake - DEBUG - Movido a (25, 5). Longitud: 8
+2025-07-20 22:16:24,336 - game.snake - DEBUG - Movido a (25, 6). Longitud: 8
+2025-07-20 22:16:24,489 - game.snake - DEBUG - Movido a (25, 7). Longitud: 8
+2025-07-20 22:16:24,641 - game.snake - DEBUG - Movido a (25, 8). Longitud: 8
+2025-07-20 22:16:24,792 - game.snake - DEBUG - Movido a (25, 9). Longitud: 8
+2025-07-20 22:16:24,956 - game.snake - DEBUG - Movido a (25, 10). Longitud: 8
+2025-07-20 22:16:25,105 - game.snake - DEBUG - Movido a (25, 11). Longitud: 8
+2025-07-20 22:16:25,259 - game.snake - DEBUG - Movido a (25, 12). Longitud: 8
+2025-07-20 22:16:25,409 - game.snake - DEBUG - Movido a (25, 13). Longitud: 8
+2025-07-20 22:16:25,574 - game.snake - DEBUG - Movido a (25, 14). Longitud: 8
+2025-07-20 22:16:25,723 - game.snake - DEBUG - Movido a (25, 15). Longitud: 8
+2025-07-20 22:16:25,890 - game.snake - DEBUG - Movido a (25, 16). Longitud: 8
+2025-07-20 22:16:26,056 - game.snake - DEBUG - Movido a (25, 17). Longitud: 8
+2025-07-20 22:16:26,208 - game.snake - DEBUG - Movido a (25, 18). Longitud: 8
+2025-07-20 22:16:26,358 - game.snake - DEBUG - Movido a (25, 19). Longitud: 8
+2025-07-20 22:16:26,507 - game.snake - DEBUG - Movido a (25, 20). Longitud: 8
+2025-07-20 22:16:26,674 - game.snake - DEBUG - Movido a (25, 21). Longitud: 8
+2025-07-20 22:16:26,675 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:16:26,675 - game.fruit - DEBUG - Fruta generada en (13, 12)
+2025-07-20 22:16:26,675 - game.board - INFO - Nuevo puntaje: 60
+2025-07-20 22:16:26,723 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:26,840 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:16:26,841 - game.snake - DEBUG - Movido a (24, 21). Longitud: 9
+2025-07-20 22:16:26,993 - game.snake - DEBUG - Movido a (23, 21). Longitud: 9
+2025-07-20 22:16:27,144 - game.snake - DEBUG - Movido a (22, 21). Longitud: 9
+2025-07-20 22:16:27,310 - game.snake - DEBUG - Movido a (21, 21). Longitud: 9
+2025-07-20 22:16:27,476 - game.snake - DEBUG - Movido a (20, 21). Longitud: 9
+2025-07-20 22:16:27,630 - game.snake - DEBUG - Movido a (19, 21). Longitud: 9
+2025-07-20 22:16:27,782 - game.snake - DEBUG - Movido a (18, 21). Longitud: 9
+2025-07-20 22:16:27,933 - game.snake - DEBUG - Movido a (17, 21). Longitud: 9
+2025-07-20 22:16:28,085 - game.snake - DEBUG - Movido a (16, 21). Longitud: 9
+2025-07-20 22:16:28,236 - game.snake - DEBUG - Movido a (15, 21). Longitud: 9
+2025-07-20 22:16:28,386 - game.snake - DEBUG - Movido a (14, 21). Longitud: 9
+2025-07-20 22:16:28,537 - game.snake - DEBUG - Movido a (13, 21). Longitud: 9
+2025-07-20 22:16:28,635 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:28,703 - game.snake - DEBUG - Movido a (13, 20). Longitud: 9
+2025-07-20 22:16:28,853 - game.snake - DEBUG - Movido a (13, 19). Longitud: 9
+2025-07-20 22:16:29,003 - game.snake - DEBUG - Movido a (13, 18). Longitud: 9
+2025-07-20 22:16:29,169 - game.snake - DEBUG - Movido a (13, 17). Longitud: 9
+2025-07-20 22:16:29,320 - game.snake - DEBUG - Movido a (13, 16). Longitud: 9
+2025-07-20 22:16:29,470 - game.snake - DEBUG - Movido a (13, 15). Longitud: 9
+2025-07-20 22:16:29,636 - game.snake - DEBUG - Movido a (13, 14). Longitud: 9
+2025-07-20 22:16:29,802 - game.snake - DEBUG - Movido a (13, 13). Longitud: 9
+2025-07-20 22:16:29,952 - game.snake - DEBUG - Movido a (13, 12). Longitud: 9
+2025-07-20 22:16:29,953 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:16:29,954 - game.fruit - DEBUG - Fruta generada en (12, 28)
+2025-07-20 22:16:29,954 - game.board - INFO - Nuevo puntaje: 70
+2025-07-20 22:16:30,116 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:16:30,116 - game.snake - DEBUG - Movido a (13, 11). Longitud: 10
+2025-07-20 22:16:30,251 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:16:30,268 - game.snake - DEBUG - Movido a (14, 11). Longitud: 10
+2025-07-20 22:16:30,422 - game.snake - DEBUG - Movido a (15, 11). Longitud: 10
+2025-07-20 22:16:30,573 - game.snake - DEBUG - Movido a (16, 11). Longitud: 10
+2025-07-20 22:16:30,723 - game.snake - DEBUG - Movido a (17, 11). Longitud: 10
+2025-07-20 22:16:30,873 - game.snake - DEBUG - Movido a (18, 11). Longitud: 10
+2025-07-20 22:16:30,890 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:16:31,023 - game.snake - DEBUG - Movido a (18, 12). Longitud: 10
+2025-07-20 22:16:31,141 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:31,176 - game.snake - DEBUG - Movido a (17, 12). Longitud: 10
+2025-07-20 22:16:31,326 - game.snake - DEBUG - Movido a (16, 12). Longitud: 10
+2025-07-20 22:16:31,479 - game.snake - DEBUG - Movido a (15, 12). Longitud: 10
+2025-07-20 22:16:31,631 - game.snake - DEBUG - Movido a (14, 12). Longitud: 10
+2025-07-20 22:16:31,782 - game.snake - DEBUG - Movido a (13, 12). Longitud: 10
+2025-07-20 22:16:31,933 - game.snake - DEBUG - Movido a (12, 12). Longitud: 10
+2025-07-20 22:16:32,086 - game.snake - DEBUG - Movido a (11, 12). Longitud: 10
+2025-07-20 22:16:32,237 - game.snake - DEBUG - Movido a (10, 12). Longitud: 10
+2025-07-20 22:16:32,403 - game.snake - DEBUG - Movido a (9, 12). Longitud: 10
+2025-07-20 22:16:32,554 - game.snake - DEBUG - Movido a (8, 12). Longitud: 10
+2025-07-20 22:16:32,638 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:16:32,705 - game.snake - DEBUG - Movido a (8, 13). Longitud: 10
+2025-07-20 22:16:32,871 - game.snake - DEBUG - Movido a (8, 14). Longitud: 10
+2025-07-20 22:16:32,970 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:16:33,022 - game.snake - DEBUG - Movido a (9, 14). Longitud: 10
+2025-07-20 22:16:33,172 - game.snake - DEBUG - Movido a (10, 14). Longitud: 10
+2025-07-20 22:16:33,188 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:33,334 - game.snake - DEBUG - Movido a (10, 13). Longitud: 10
+2025-07-20 22:16:33,499 - game.snake - DEBUG - Movido a (10, 12). Longitud: 10
+2025-07-20 22:16:33,500 - game.snake - WARNING - Colisión consigo misma en (10, 12)
+2025-07-20 22:16:33,500 - game.board - INFO - Juego terminado. Puntaje final: 70
+2025-07-20 22:16:35,447 - ui.button - INFO - Botón clickeado: Jugar
+2025-07-20 22:16:35,448 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 22:16:35,448 - game.snake - DEBUG - Usando configuración por defecto
+2025-07-20 22:16:35,449 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:16:35,450 - game.snake - INFO - Serpiente inicializada
+2025-07-20 22:16:35,451 - game.fruit - DEBUG - Fruta generada en (38, 12)
+2025-07-20 22:16:35,451 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:16:35,452 - game.fruit - DEBUG - Fruta generada en (29, 18)
+2025-07-20 22:16:35,453 - game.board - INFO - Iniciando partida
+2025-07-20 22:16:35,454 - game.snake - DEBUG - Movido a (21, 15). Longitud: 3
+2025-07-20 22:16:35,606 - game.snake - DEBUG - Movido a (22, 15). Longitud: 3
+2025-07-20 22:16:35,755 - game.snake - DEBUG - Movido a (23, 15). Longitud: 3
+2025-07-20 22:16:35,906 - game.snake - DEBUG - Movido a (24, 15). Longitud: 3
+2025-07-20 22:16:36,056 - game.snake - DEBUG - Movido a (25, 15). Longitud: 3
+2025-07-20 22:16:36,205 - game.snake - DEBUG - Movido a (26, 15). Longitud: 3
+2025-07-20 22:16:36,339 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:16:36,355 - game.snake - DEBUG - Movido a (27, 15). Longitud: 3
+2025-07-20 22:16:36,506 - game.snake - DEBUG - Movido a (28, 15). Longitud: 3
+2025-07-20 22:16:36,671 - game.snake - DEBUG - Movido a (29, 15). Longitud: 3
+2025-07-20 22:16:36,823 - game.snake - DEBUG - Movido a (30, 15). Longitud: 3
+2025-07-20 22:16:36,975 - game.snake - DEBUG - Movido a (31, 15). Longitud: 3
+2025-07-20 22:16:37,128 - game.snake - DEBUG - Movido a (32, 15). Longitud: 3
+2025-07-20 22:16:37,279 - game.snake - DEBUG - Movido a (33, 15). Longitud: 3
+2025-07-20 22:16:37,443 - game.snake - DEBUG - Movido a (34, 15). Longitud: 3
+2025-07-20 22:16:37,596 - game.snake - DEBUG - Movido a (35, 15). Longitud: 3
+2025-07-20 22:16:37,748 - game.snake - DEBUG - Movido a (36, 15). Longitud: 3
+2025-07-20 22:16:37,898 - game.snake - DEBUG - Movido a (37, 15). Longitud: 3
+2025-07-20 22:16:38,053 - game.snake - DEBUG - Movido a (38, 15). Longitud: 3
+2025-07-20 22:16:38,204 - game.snake - DEBUG - Movido a (39, 15). Longitud: 3
+2025-07-20 22:16:38,356 - game.snake - DEBUG - Movido a (40, 15). Longitud: 3
+2025-07-20 22:16:38,357 - game.snake - WARNING - Colisión con borde en (40, 15)
+2025-07-20 22:16:38,357 - game.board - INFO - Juego terminado. Puntaje final: 0
+2025-07-20 22:16:39,791 - ui.button - INFO - Botón clickeado: Jugar
+2025-07-20 22:16:39,792 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 22:16:39,792 - game.snake - DEBUG - Usando configuración por defecto
+2025-07-20 22:16:39,793 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:16:39,793 - game.snake - INFO - Serpiente inicializada
+2025-07-20 22:16:39,794 - game.fruit - DEBUG - Fruta generada en (29, 1)
+2025-07-20 22:16:39,795 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:16:39,795 - game.fruit - DEBUG - Fruta generada en (24, 12)
+2025-07-20 22:16:39,796 - game.board - INFO - Iniciando partida
+2025-07-20 22:16:39,796 - game.snake - DEBUG - Movido a (21, 15). Longitud: 3
+2025-07-20 22:16:39,961 - game.snake - DEBUG - Movido a (22, 15). Longitud: 3
+2025-07-20 22:16:40,112 - game.snake - DEBUG - Movido a (23, 15). Longitud: 3
+2025-07-20 22:16:40,275 - game.snake - DEBUG - Movido a (24, 15). Longitud: 3
+2025-07-20 22:16:40,441 - game.snake - DEBUG - Movido a (25, 15). Longitud: 3
+2025-07-20 22:16:40,606 - game.snake - DEBUG - Movido a (26, 15). Longitud: 3
+2025-07-20 22:16:40,691 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:16:40,757 - game.snake - DEBUG - Movido a (26, 16). Longitud: 3
+2025-07-20 22:16:40,922 - game.snake - DEBUG - Movido a (26, 17). Longitud: 3
+2025-07-20 22:16:41,073 - game.snake - DEBUG - Movido a (26, 18). Longitud: 3
+2025-07-20 22:16:41,227 - game.snake - DEBUG - Movido a (26, 19). Longitud: 3
+2025-07-20 22:16:41,377 - game.snake - DEBUG - Movido a (26, 20). Longitud: 3
+2025-07-20 22:16:41,527 - game.snake - DEBUG - Movido a (26, 21). Longitud: 3
+2025-07-20 22:16:41,678 - game.snake - DEBUG - Movido a (26, 22). Longitud: 3
+2025-07-20 22:16:41,842 - game.snake - DEBUG - Movido a (26, 23). Longitud: 3
+2025-07-20 22:16:41,994 - game.snake - DEBUG - Movido a (26, 24). Longitud: 3
+2025-07-20 22:16:42,148 - game.snake - DEBUG - Movido a (26, 25). Longitud: 3
+2025-07-20 22:16:42,302 - game.snake - DEBUG - Movido a (26, 26). Longitud: 3
+2025-07-20 22:16:42,452 - game.snake - DEBUG - Movido a (26, 27). Longitud: 3
+2025-07-20 22:16:42,605 - game.snake - DEBUG - Movido a (26, 28). Longitud: 3
+2025-07-20 22:16:42,756 - game.snake - DEBUG - Movido a (26, 29). Longitud: 3
+2025-07-20 22:16:42,908 - game.snake - DEBUG - Movido a (26, 30). Longitud: 3
+2025-07-20 22:16:42,908 - game.snake - WARNING - Colisión con borde en (26, 30)
+2025-07-20 22:16:42,909 - game.board - INFO - Juego terminado. Puntaje final: 0
+2025-07-20 22:16:44,216 - ui.button - INFO - Botón clickeado: Jugar
+2025-07-20 22:16:44,217 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 22:16:44,218 - game.snake - DEBUG - Usando configuración por defecto
+2025-07-20 22:16:44,218 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:16:44,219 - game.snake - INFO - Serpiente inicializada
+2025-07-20 22:16:44,220 - game.fruit - DEBUG - Fruta generada en (25, 8)
+2025-07-20 22:16:44,221 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:16:44,221 - game.fruit - DEBUG - Fruta generada en (26, 26)
+2025-07-20 22:16:44,222 - game.board - INFO - Iniciando partida
+2025-07-20 22:16:44,223 - game.snake - DEBUG - Movido a (21, 15). Longitud: 3
+2025-07-20 22:16:44,373 - game.snake - DEBUG - Movido a (22, 15). Longitud: 3
+2025-07-20 22:16:44,536 - game.snake - DEBUG - Movido a (23, 15). Longitud: 3
+2025-07-20 22:16:44,687 - game.snake - DEBUG - Movido a (24, 15). Longitud: 3
+2025-07-20 22:16:44,853 - game.snake - DEBUG - Movido a (25, 15). Longitud: 3
+2025-07-20 22:16:45,005 - game.snake - DEBUG - Movido a (26, 15). Longitud: 3
+2025-07-20 22:16:45,159 - game.snake - DEBUG - Movido a (27, 15). Longitud: 3
+2025-07-20 22:16:45,309 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:45,310 - game.snake - DEBUG - Movido a (27, 14). Longitud: 3
+2025-07-20 22:16:45,461 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:45,461 - game.snake - DEBUG - Movido a (26, 14). Longitud: 3
+2025-07-20 22:16:45,613 - game.snake - DEBUG - Movido a (25, 14). Longitud: 3
+2025-07-20 22:16:45,766 - game.snake - DEBUG - Movido a (24, 14). Longitud: 3
+2025-07-20 22:16:45,916 - game.snake - DEBUG - Movido a (23, 14). Longitud: 3
+2025-07-20 22:16:46,081 - game.snake - DEBUG - Movido a (22, 14). Longitud: 3
+2025-07-20 22:16:46,246 - game.snake - DEBUG - Movido a (21, 14). Longitud: 3
+2025-07-20 22:16:46,399 - game.snake - DEBUG - Movido a (20, 14). Longitud: 3
+2025-07-20 22:16:46,498 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:46,565 - game.snake - DEBUG - Movido a (20, 13). Longitud: 3
+2025-07-20 22:16:46,600 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:16:46,720 - game.snake - DEBUG - Movido a (21, 13). Longitud: 3
+2025-07-20 22:16:46,885 - game.snake - DEBUG - Movido a (22, 13). Longitud: 3
+2025-07-20 22:16:47,035 - game.snake - DEBUG - Movido a (23, 13). Longitud: 3
+2025-07-20 22:16:47,187 - game.snake - DEBUG - Movido a (24, 13). Longitud: 3
+2025-07-20 22:16:47,336 - game.snake - DEBUG - Movido a (25, 13). Longitud: 3
+2025-07-20 22:16:47,355 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:16:47,503 - game.snake - DEBUG - Movido a (25, 14). Longitud: 3
+2025-07-20 22:16:47,653 - game.snake - DEBUG - Movido a (25, 15). Longitud: 3
+2025-07-20 22:16:47,803 - game.snake - DEBUG - Movido a (25, 16). Longitud: 3
+2025-07-20 22:16:47,836 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:16:47,953 - game.snake - DEBUG - Movido a (24, 16). Longitud: 3
+2025-07-20 22:16:48,103 - game.snake - DEBUG - Movido a (23, 16). Longitud: 3
+2025-07-20 22:16:48,255 - game.snake - DEBUG - Movido a (22, 16). Longitud: 3
+2025-07-20 22:16:48,407 - game.snake - DEBUG - Movido a (21, 16). Longitud: 3
+2025-07-20 22:16:48,559 - game.snake - DEBUG - Movido a (20, 16). Longitud: 3
+2025-07-20 22:16:48,724 - game.snake - DEBUG - Movido a (19, 16). Longitud: 3
+2025-07-20 22:16:48,890 - game.snake - DEBUG - Movido a (18, 16). Longitud: 3
+2025-07-20 22:16:49,043 - game.snake - DEBUG - Movido a (17, 16). Longitud: 3
+2025-07-20 22:16:49,208 - game.snake - DEBUG - Movido a (16, 16). Longitud: 3
+2025-07-20 22:16:49,359 - game.snake - DEBUG - Movido a (15, 16). Longitud: 3
+2025-07-20 22:16:49,514 - game.snake - DEBUG - Movido a (14, 16). Longitud: 3
+2025-07-20 22:16:49,665 - game.snake - DEBUG - Movido a (13, 16). Longitud: 3
+2025-07-20 22:16:49,816 - game.snake - DEBUG - Movido a (12, 16). Longitud: 3
+2025-07-20 22:16:49,981 - game.snake - DEBUG - Movido a (11, 16). Longitud: 3
+2025-07-20 22:16:50,148 - game.snake - DEBUG - Movido a (10, 16). Longitud: 3
+2025-07-20 22:16:50,299 - game.snake - DEBUG - Movido a (9, 16). Longitud: 3
+2025-07-20 22:16:50,465 - game.snake - DEBUG - Movido a (8, 16). Longitud: 3
+2025-07-20 22:16:50,616 - game.snake - DEBUG - Movido a (7, 16). Longitud: 3
+2025-07-20 22:16:50,768 - game.snake - DEBUG - Movido a (6, 16). Longitud: 3
+2025-07-20 22:16:50,932 - game.snake - DEBUG - Movido a (5, 16). Longitud: 3
+2025-07-20 22:16:51,098 - game.snake - DEBUG - Movido a (4, 16). Longitud: 3
+2025-07-20 22:16:51,249 - game.snake - DEBUG - Movido a (3, 16). Longitud: 3
+2025-07-20 22:16:51,400 - game.snake - DEBUG - Movido a (2, 16). Longitud: 3
+2025-07-20 22:16:51,550 - game.snake - DEBUG - Movido a (1, 16). Longitud: 3
+2025-07-20 22:16:51,700 - game.snake - DEBUG - Movido a (0, 16). Longitud: 3
+2025-07-20 22:16:51,852 - game.snake - DEBUG - Movido a (-1, 16). Longitud: 3
+2025-07-20 22:16:51,853 - game.snake - WARNING - Colisión con borde en (-1, 16)
+2025-07-20 22:16:51,853 - game.board - INFO - Juego terminado. Puntaje final: 0
+2025-07-20 22:16:53,236 - ui.button - INFO - Botón clickeado: Jugar
+2025-07-20 22:16:53,237 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 22:16:53,237 - game.snake - DEBUG - Usando configuración por defecto
+2025-07-20 22:16:53,237 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:16:53,238 - game.snake - INFO - Serpiente inicializada
+2025-07-20 22:16:53,238 - game.fruit - DEBUG - Fruta generada en (37, 28)
+2025-07-20 22:16:53,238 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:16:53,239 - game.fruit - DEBUG - Fruta generada en (4, 9)
+2025-07-20 22:16:53,239 - game.board - INFO - Iniciando partida
+2025-07-20 22:16:53,239 - game.snake - DEBUG - Movido a (21, 15). Longitud: 3
+2025-07-20 22:16:53,402 - game.snake - DEBUG - Movido a (22, 15). Longitud: 3
+2025-07-20 22:16:53,556 - game.snake - DEBUG - Movido a (23, 15). Longitud: 3
+2025-07-20 22:16:53,722 - game.snake - DEBUG - Movido a (24, 15). Longitud: 3
+2025-07-20 22:16:53,875 - game.snake - DEBUG - Movido a (25, 15). Longitud: 3
+2025-07-20 22:16:54,008 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:54,025 - game.snake - DEBUG - Movido a (25, 14). Longitud: 3
+2025-07-20 22:16:54,192 - game.snake - DEBUG - Movido a (25, 13). Longitud: 3
+2025-07-20 22:16:54,356 - game.snake - DEBUG - Movido a (25, 12). Longitud: 3
+2025-07-20 22:16:54,506 - game.snake - DEBUG - Movido a (25, 11). Longitud: 3
+2025-07-20 22:16:54,657 - game.snake - DEBUG - Movido a (25, 10). Longitud: 3
+2025-07-20 22:16:54,809 - game.snake - DEBUG - Movido a (25, 9). Longitud: 3
+2025-07-20 22:16:54,972 - game.snake - DEBUG - Movido a (25, 8). Longitud: 3
+2025-07-20 22:16:55,137 - game.snake - DEBUG - Movido a (25, 7). Longitud: 3
+2025-07-20 22:16:55,288 - game.snake - DEBUG - Movido a (25, 6). Longitud: 3
+2025-07-20 22:16:55,444 - game.snake - DEBUG - Movido a (25, 5). Longitud: 3
+2025-07-20 22:16:55,596 - game.snake - DEBUG - Movido a (25, 4). Longitud: 3
+2025-07-20 22:16:55,763 - game.snake - DEBUG - Movido a (25, 3). Longitud: 3
+2025-07-20 22:16:55,913 - game.snake - DEBUG - Movido a (25, 2). Longitud: 3
+2025-07-20 22:16:56,078 - game.snake - DEBUG - Movido a (25, 1). Longitud: 3
+2025-07-20 22:16:56,231 - game.snake - DEBUG - Movido a (25, 0). Longitud: 3
+2025-07-20 22:16:56,382 - game.snake - DEBUG - Movido a (25, -1). Longitud: 3
+2025-07-20 22:16:56,383 - game.snake - WARNING - Colisión con borde en (25, -1)
+2025-07-20 22:16:56,384 - game.board - INFO - Juego terminado. Puntaje final: 0
+2025-07-20 22:16:56,792 - ui.button - INFO - Botón clickeado: Jugar
+2025-07-20 22:16:56,793 - ui.menu - INFO - Iniciando nueva partida
+2025-07-20 22:16:56,794 - game.snake - DEBUG - Usando configuración por defecto
+2025-07-20 22:16:56,794 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:16:56,795 - game.snake - INFO - Serpiente inicializada
+2025-07-20 22:16:56,796 - game.fruit - DEBUG - Fruta generada en (32, 15)
+2025-07-20 22:16:56,797 - game.snake - INFO - Serpiente reiniciada
+2025-07-20 22:16:56,798 - game.fruit - DEBUG - Fruta generada en (30, 1)
+2025-07-20 22:16:56,798 - game.board - INFO - Iniciando partida
+2025-07-20 22:16:56,799 - game.snake - DEBUG - Movido a (21, 15). Longitud: 3
+2025-07-20 22:16:56,949 - game.snake - DEBUG - Movido a (22, 15). Longitud: 3
+2025-07-20 22:16:57,099 - game.snake - DEBUG - Movido a (23, 15). Longitud: 3
+2025-07-20 22:16:57,253 - game.snake - DEBUG - Movido a (24, 15). Longitud: 3
+2025-07-20 22:16:57,406 - game.snake - DEBUG - Movido a (25, 15). Longitud: 3
+2025-07-20 22:16:57,569 - game.snake - DEBUG - Movido a (26, 15). Longitud: 3
+2025-07-20 22:16:57,603 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:57,735 - game.snake - DEBUG - Movido a (26, 14). Longitud: 3
+2025-07-20 22:16:57,901 - game.snake - DEBUG - Movido a (26, 13). Longitud: 3
+2025-07-20 22:16:58,054 - game.snake - DEBUG - Movido a (26, 12). Longitud: 3
+2025-07-20 22:16:58,218 - game.snake - DEBUG - Movido a (26, 11). Longitud: 3
+2025-07-20 22:16:58,253 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:16:58,368 - game.snake - DEBUG - Movido a (27, 11). Longitud: 3
+2025-07-20 22:16:58,519 - game.snake - DEBUG - Movido a (28, 11). Longitud: 3
+2025-07-20 22:16:58,685 - game.snake - DEBUG - Movido a (29, 11). Longitud: 3
+2025-07-20 22:16:58,838 - game.snake - DEBUG - Movido a (30, 11). Longitud: 3
+2025-07-20 22:16:58,991 - game.snake - DEBUG - Movido a (31, 11). Longitud: 3
+2025-07-20 22:16:59,106 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:16:59,155 - game.snake - DEBUG - Movido a (31, 10). Longitud: 3
+2025-07-20 22:16:59,307 - game.snake - DEBUG - Movido a (31, 9). Longitud: 3
+2025-07-20 22:16:59,458 - game.snake - DEBUG - Movido a (31, 8). Longitud: 3
+2025-07-20 22:16:59,608 - game.snake - DEBUG - Movido a (31, 7). Longitud: 3
+2025-07-20 22:16:59,760 - game.snake - DEBUG - Movido a (31, 6). Longitud: 3
+2025-07-20 22:16:59,924 - game.snake - DEBUG - Movido a (31, 5). Longitud: 3
+2025-07-20 22:17:00,089 - game.snake - DEBUG - Movido a (31, 4). Longitud: 3
+2025-07-20 22:17:00,241 - game.snake - DEBUG - Movido a (31, 3). Longitud: 3
+2025-07-20 22:17:00,405 - game.snake - DEBUG - Movido a (31, 2). Longitud: 3
+2025-07-20 22:17:00,557 - game.snake - DEBUG - Movido a (31, 1). Longitud: 3
+2025-07-20 22:17:00,657 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:17:00,708 - game.snake - DEBUG - Movido a (30, 1). Longitud: 3
+2025-07-20 22:17:00,709 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:17:00,709 - game.fruit - DEBUG - Fruta generada en (33, 16)
+2025-07-20 22:17:00,709 - game.board - INFO - Nuevo puntaje: 10
+2025-07-20 22:17:00,858 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:17:00,859 - game.snake - DEBUG - Movido a (29, 1). Longitud: 4
+2025-07-20 22:17:01,010 - game.snake - DEBUG - Movido a (28, 1). Longitud: 4
+2025-07-20 22:17:01,177 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:17:01,178 - game.snake - DEBUG - Movido a (28, 2). Longitud: 4
+2025-07-20 22:17:01,344 - game.snake - DEBUG - Movido a (28, 3). Longitud: 4
+2025-07-20 22:17:01,496 - game.snake - DEBUG - Movido a (28, 4). Longitud: 4
+2025-07-20 22:17:01,632 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:17:01,649 - game.snake - DEBUG - Movido a (29, 4). Longitud: 4
+2025-07-20 22:17:01,801 - game.snake - DEBUG - Movido a (30, 4). Longitud: 4
+2025-07-20 22:17:01,951 - game.snake - DEBUG - Movido a (31, 4). Longitud: 4
+2025-07-20 22:17:02,105 - game.snake - DEBUG - Movido a (32, 4). Longitud: 4
+2025-07-20 22:17:02,271 - game.snake - DEBUG - Movido a (33, 4). Longitud: 4
+2025-07-20 22:17:02,422 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:17:02,423 - game.snake - DEBUG - Movido a (33, 5). Longitud: 4
+2025-07-20 22:17:02,573 - game.snake - DEBUG - Movido a (33, 6). Longitud: 4
+2025-07-20 22:17:02,726 - game.snake - DEBUG - Movido a (33, 7). Longitud: 4
+2025-07-20 22:17:02,876 - game.snake - DEBUG - Movido a (33, 8). Longitud: 4
+2025-07-20 22:17:03,041 - game.snake - DEBUG - Movido a (33, 9). Longitud: 4
+2025-07-20 22:17:03,194 - game.snake - DEBUG - Movido a (33, 10). Longitud: 4
+2025-07-20 22:17:03,359 - game.snake - DEBUG - Movido a (33, 11). Longitud: 4
+2025-07-20 22:17:03,510 - game.snake - DEBUG - Movido a (33, 12). Longitud: 4
+2025-07-20 22:17:03,661 - game.snake - DEBUG - Movido a (33, 13). Longitud: 4
+2025-07-20 22:17:03,825 - game.snake - DEBUG - Movido a (33, 14). Longitud: 4
+2025-07-20 22:17:03,976 - game.snake - DEBUG - Movido a (33, 15). Longitud: 4
+2025-07-20 22:17:04,126 - game.snake - DEBUG - Movido a (33, 16). Longitud: 4
+2025-07-20 22:17:04,126 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:17:04,127 - game.fruit - DEBUG - Fruta generada en (8, 14)
+2025-07-20 22:17:04,127 - game.board - INFO - Nuevo puntaje: 20
+2025-07-20 22:17:04,293 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:17:04,293 - game.snake - DEBUG - Movido a (33, 17). Longitud: 5
+2025-07-20 22:17:04,443 - game.snake - DEBUG - Movido a (33, 18). Longitud: 5
+2025-07-20 22:17:04,510 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:17:04,594 - game.snake - DEBUG - Movido a (32, 18). Longitud: 5
+2025-07-20 22:17:04,759 - game.snake - DEBUG - Movido a (31, 18). Longitud: 5
+2025-07-20 22:17:04,912 - game.snake - DEBUG - Movido a (30, 18). Longitud: 5
+2025-07-20 22:17:05,063 - game.snake - DEBUG - Movido a (29, 18). Longitud: 5
+2025-07-20 22:17:05,215 - game.snake - DEBUG - Movido a (28, 18). Longitud: 5
+2025-07-20 22:17:05,381 - game.snake - DEBUG - Movido a (27, 18). Longitud: 5
+2025-07-20 22:17:05,531 - game.snake - DEBUG - Movido a (26, 18). Longitud: 5
+2025-07-20 22:17:05,681 - game.snake - DEBUG - Movido a (25, 18). Longitud: 5
+2025-07-20 22:17:05,833 - game.snake - DEBUG - Movido a (24, 18). Longitud: 5
+2025-07-20 22:17:05,985 - game.snake - DEBUG - Movido a (23, 18). Longitud: 5
+2025-07-20 22:17:06,150 - game.snake - DEBUG - Movido a (22, 18). Longitud: 5
+2025-07-20 22:17:06,299 - game.snake - DEBUG - Movido a (21, 18). Longitud: 5
+2025-07-20 22:17:06,452 - game.snake - DEBUG - Movido a (20, 18). Longitud: 5
+2025-07-20 22:17:06,616 - game.snake - DEBUG - Movido a (19, 18). Longitud: 5
+2025-07-20 22:17:06,767 - game.snake - DEBUG - Movido a (18, 18). Longitud: 5
+2025-07-20 22:17:06,918 - game.snake - DEBUG - Movido a (17, 18). Longitud: 5
+2025-07-20 22:17:07,081 - game.snake - DEBUG - Movido a (16, 18). Longitud: 5
+2025-07-20 22:17:07,233 - game.snake - DEBUG - Movido a (15, 18). Longitud: 5
+2025-07-20 22:17:07,384 - game.snake - DEBUG - Movido a (14, 18). Longitud: 5
+2025-07-20 22:17:07,548 - game.snake - DEBUG - Movido a (13, 18). Longitud: 5
+2025-07-20 22:17:07,712 - game.snake - DEBUG - Movido a (12, 18). Longitud: 5
+2025-07-20 22:17:07,863 - game.snake - DEBUG - Movido a (11, 18). Longitud: 5
+2025-07-20 22:17:08,012 - game.snake - DEBUG - Movido a (10, 18). Longitud: 5
+2025-07-20 22:17:08,178 - game.snake - DEBUG - Movido a (9, 18). Longitud: 5
+2025-07-20 22:17:08,332 - game.snake - DEBUG - Movido a (8, 18). Longitud: 5
+2025-07-20 22:17:08,418 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:17:08,485 - game.snake - DEBUG - Movido a (8, 17). Longitud: 5
+2025-07-20 22:17:08,638 - game.snake - DEBUG - Movido a (8, 16). Longitud: 5
+2025-07-20 22:17:08,793 - game.snake - DEBUG - Movido a (8, 15). Longitud: 5
+2025-07-20 22:17:08,946 - game.snake - DEBUG - Movido a (8, 14). Longitud: 5
+2025-07-20 22:17:08,947 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:17:08,948 - game.fruit - DEBUG - Fruta generada en (16, 24)
+2025-07-20 22:17:08,948 - game.board - INFO - Nuevo puntaje: 30
+2025-07-20 22:17:09,098 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:17:09,098 - game.snake - DEBUG - Movido a (8, 13). Longitud: 6
+2025-07-20 22:17:09,247 - game.snake - DEBUG - Movido a (8, 12). Longitud: 6
+2025-07-20 22:17:09,315 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:17:09,412 - game.snake - DEBUG - Movido a (9, 12). Longitud: 6
+2025-07-20 22:17:09,564 - game.snake - DEBUG - Movido a (10, 12). Longitud: 6
+2025-07-20 22:17:09,731 - game.snake - DEBUG - Movido a (11, 12). Longitud: 6
+2025-07-20 22:17:09,881 - game.snake - DEBUG - Movido a (12, 12). Longitud: 6
+2025-07-20 22:17:10,033 - game.snake - DEBUG - Movido a (13, 12). Longitud: 6
+2025-07-20 22:17:10,183 - game.snake - DEBUG - Movido a (14, 12). Longitud: 6
+2025-07-20 22:17:10,333 - game.snake - DEBUG - Movido a (15, 12). Longitud: 6
+2025-07-20 22:17:10,482 - game.snake - DEBUG - Movido a (16, 12). Longitud: 6
+2025-07-20 22:17:10,619 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:17:10,636 - game.snake - DEBUG - Movido a (16, 13). Longitud: 6
+2025-07-20 22:17:10,802 - game.snake - DEBUG - Movido a (16, 14). Longitud: 6
+2025-07-20 22:17:10,952 - game.snake - DEBUG - Movido a (16, 15). Longitud: 6
+2025-07-20 22:17:11,106 - game.snake - DEBUG - Movido a (16, 16). Longitud: 6
+2025-07-20 22:17:11,256 - game.snake - DEBUG - Movido a (16, 17). Longitud: 6
+2025-07-20 22:17:11,421 - game.snake - DEBUG - Movido a (16, 18). Longitud: 6
+2025-07-20 22:17:11,588 - game.snake - DEBUG - Movido a (16, 19). Longitud: 6
+2025-07-20 22:17:11,740 - game.snake - DEBUG - Movido a (16, 20). Longitud: 6
+2025-07-20 22:17:11,903 - game.snake - DEBUG - Movido a (16, 21). Longitud: 6
+2025-07-20 22:17:12,053 - game.snake - DEBUG - Movido a (16, 22). Longitud: 6
+2025-07-20 22:17:12,206 - game.snake - DEBUG - Movido a (16, 23). Longitud: 6
+2025-07-20 22:17:12,373 - game.snake - DEBUG - Movido a (16, 24). Longitud: 6
+2025-07-20 22:17:12,374 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:17:12,375 - game.fruit - DEBUG - Fruta generada en (2, 2)
+2025-07-20 22:17:12,376 - game.board - INFO - Nuevo puntaje: 40
+2025-07-20 22:17:12,488 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:17:12,538 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:17:12,539 - game.snake - DEBUG - Movido a (17, 24). Longitud: 7
+2025-07-20 22:17:12,688 - game.snake - DEBUG - Movido a (18, 24). Longitud: 7
+2025-07-20 22:17:12,855 - game.snake - DEBUG - Movido a (19, 24). Longitud: 7
+2025-07-20 22:17:12,905 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:17:13,020 - game.snake - DEBUG - Movido a (19, 23). Longitud: 7
+2025-07-20 22:17:13,172 - game.snake - DEBUG - Movido a (19, 22). Longitud: 7
+2025-07-20 22:17:13,337 - game.snake - DEBUG - Movido a (19, 21). Longitud: 7
+2025-07-20 22:17:13,487 - game.snake - DEBUG - Movido a (19, 20). Longitud: 7
+2025-07-20 22:17:13,652 - game.snake - DEBUG - Movido a (19, 19). Longitud: 7
+2025-07-20 22:17:13,817 - game.snake - DEBUG - Movido a (19, 18). Longitud: 7
+2025-07-20 22:17:13,968 - game.snake - DEBUG - Movido a (19, 17). Longitud: 7
+2025-07-20 22:17:14,117 - game.snake - DEBUG - Movido a (19, 16). Longitud: 7
+2025-07-20 22:17:14,268 - game.snake - DEBUG - Movido a (19, 15). Longitud: 7
+2025-07-20 22:17:14,433 - game.snake - DEBUG - Movido a (19, 14). Longitud: 7
+2025-07-20 22:17:14,584 - game.snake - DEBUG - Movido a (19, 13). Longitud: 7
+2025-07-20 22:17:14,737 - game.snake - DEBUG - Movido a (19, 12). Longitud: 7
+2025-07-20 22:17:14,889 - game.snake - DEBUG - Movido a (19, 11). Longitud: 7
+2025-07-20 22:17:15,055 - game.snake - DEBUG - Movido a (19, 10). Longitud: 7
+2025-07-20 22:17:15,206 - game.snake - DEBUG - Movido a (19, 9). Longitud: 7
+2025-07-20 22:17:15,356 - game.snake - DEBUG - Movido a (19, 8). Longitud: 7
+2025-07-20 22:17:15,506 - game.snake - DEBUG - Movido a (19, 7). Longitud: 7
+2025-07-20 22:17:15,656 - game.snake - DEBUG - Movido a (19, 6). Longitud: 7
+2025-07-20 22:17:15,810 - game.snake - DEBUG - Movido a (19, 5). Longitud: 7
+2025-07-20 22:17:15,975 - game.snake - DEBUG - Movido a (19, 4). Longitud: 7
+2025-07-20 22:17:16,141 - game.snake - DEBUG - Movido a (19, 3). Longitud: 7
+2025-07-20 22:17:16,293 - game.snake - DEBUG - Movido a (19, 2). Longitud: 7
+2025-07-20 22:17:16,411 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:17:16,445 - game.snake - DEBUG - Movido a (18, 2). Longitud: 7
+2025-07-20 22:17:16,609 - game.snake - DEBUG - Movido a (17, 2). Longitud: 7
+2025-07-20 22:17:16,765 - game.snake - DEBUG - Movido a (16, 2). Longitud: 7
+2025-07-20 22:17:16,916 - game.snake - DEBUG - Movido a (15, 2). Longitud: 7
+2025-07-20 22:17:17,068 - game.snake - DEBUG - Movido a (14, 2). Longitud: 7
+2025-07-20 22:17:17,232 - game.snake - DEBUG - Movido a (13, 2). Longitud: 7
+2025-07-20 22:17:17,383 - game.snake - DEBUG - Movido a (12, 2). Longitud: 7
+2025-07-20 22:17:17,550 - game.snake - DEBUG - Movido a (11, 2). Longitud: 7
+2025-07-20 22:17:17,700 - game.snake - DEBUG - Movido a (10, 2). Longitud: 7
+2025-07-20 22:17:17,850 - game.snake - DEBUG - Movido a (9, 2). Longitud: 7
+2025-07-20 22:17:18,002 - game.snake - DEBUG - Movido a (8, 2). Longitud: 7
+2025-07-20 22:17:18,156 - game.snake - DEBUG - Movido a (7, 2). Longitud: 7
+2025-07-20 22:17:18,310 - game.snake - DEBUG - Movido a (6, 2). Longitud: 7
+2025-07-20 22:17:18,461 - game.snake - DEBUG - Movido a (5, 2). Longitud: 7
+2025-07-20 22:17:18,625 - game.snake - DEBUG - Movido a (4, 2). Longitud: 7
+2025-07-20 22:17:18,776 - game.snake - DEBUG - Movido a (3, 2). Longitud: 7
+2025-07-20 22:17:18,929 - game.snake - DEBUG - Movido a (2, 2). Longitud: 7
+2025-07-20 22:17:18,945 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:17:18,946 - game.fruit - DEBUG - Fruta generada en (31, 7)
+2025-07-20 22:17:18,946 - game.board - INFO - Nuevo puntaje: 50
+2025-07-20 22:17:19,085 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:17:19,086 - game.snake - DEBUG - Movido a (1, 2). Longitud: 8
+2025-07-20 22:17:19,102 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:17:19,240 - game.snake - DEBUG - Movido a (1, 3). Longitud: 8
+2025-07-20 22:17:19,356 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:17:19,390 - game.snake - DEBUG - Movido a (2, 3). Longitud: 8
+2025-07-20 22:17:19,555 - game.snake - DEBUG - Movido a (3, 3). Longitud: 8
+2025-07-20 22:17:19,719 - game.snake - DEBUG - Movido a (4, 3). Longitud: 8
+2025-07-20 22:17:19,870 - game.snake - DEBUG - Movido a (5, 3). Longitud: 8
+2025-07-20 22:17:20,023 - game.snake - DEBUG - Movido a (6, 3). Longitud: 8
+2025-07-20 22:17:20,175 - game.snake - DEBUG - Movido a (7, 3). Longitud: 8
+2025-07-20 22:17:20,326 - game.snake - DEBUG - Movido a (8, 3). Longitud: 8
+2025-07-20 22:17:20,489 - game.snake - DEBUG - Movido a (9, 3). Longitud: 8
+2025-07-20 22:17:20,643 - game.snake - DEBUG - Movido a (10, 3). Longitud: 8
+2025-07-20 22:17:20,793 - game.snake - DEBUG - Movido a (11, 3). Longitud: 8
+2025-07-20 22:17:20,945 - game.snake - DEBUG - Movido a (12, 3). Longitud: 8
+2025-07-20 22:17:21,096 - game.snake - DEBUG - Movido a (13, 3). Longitud: 8
+2025-07-20 22:17:21,250 - game.snake - DEBUG - Movido a (14, 3). Longitud: 8
+2025-07-20 22:17:21,401 - game.snake - DEBUG - Movido a (15, 3). Longitud: 8
+2025-07-20 22:17:21,551 - game.snake - DEBUG - Movido a (16, 3). Longitud: 8
+2025-07-20 22:17:21,701 - game.snake - DEBUG - Movido a (17, 3). Longitud: 8
+2025-07-20 22:17:21,866 - game.snake - DEBUG - Movido a (18, 3). Longitud: 8
+2025-07-20 22:17:22,018 - game.snake - DEBUG - Movido a (19, 3). Longitud: 8
+2025-07-20 22:17:22,169 - game.snake - DEBUG - Movido a (20, 3). Longitud: 8
+2025-07-20 22:17:22,325 - game.snake - DEBUG - Movido a (21, 3). Longitud: 8
+2025-07-20 22:17:22,476 - game.snake - DEBUG - Movido a (22, 3). Longitud: 8
+2025-07-20 22:17:22,626 - game.snake - DEBUG - Movido a (23, 3). Longitud: 8
+2025-07-20 22:17:22,776 - game.snake - DEBUG - Movido a (24, 3). Longitud: 8
+2025-07-20 22:17:22,928 - game.snake - DEBUG - Movido a (25, 3). Longitud: 8
+2025-07-20 22:17:23,079 - game.snake - DEBUG - Movido a (26, 3). Longitud: 8
+2025-07-20 22:17:23,236 - game.snake - DEBUG - Movido a (27, 3). Longitud: 8
+2025-07-20 22:17:23,389 - game.snake - DEBUG - Movido a (28, 3). Longitud: 8
+2025-07-20 22:17:23,555 - game.snake - DEBUG - Movido a (29, 3). Longitud: 8
+2025-07-20 22:17:23,706 - game.snake - DEBUG - Movido a (30, 3). Longitud: 8
+2025-07-20 22:17:23,857 - game.snake - DEBUG - Movido a (31, 3). Longitud: 8
+2025-07-20 22:17:23,993 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:17:24,009 - game.snake - DEBUG - Movido a (31, 4). Longitud: 8
+2025-07-20 22:17:24,172 - game.snake - DEBUG - Movido a (31, 5). Longitud: 8
+2025-07-20 22:17:24,336 - game.snake - DEBUG - Movido a (31, 6). Longitud: 8
+2025-07-20 22:17:24,488 - game.snake - DEBUG - Movido a (31, 7). Longitud: 8
+2025-07-20 22:17:24,489 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:17:24,489 - game.fruit - DEBUG - Fruta generada en (36, 29)
+2025-07-20 22:17:24,490 - game.board - INFO - Nuevo puntaje: 60
+2025-07-20 22:17:24,640 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:17:24,640 - game.snake - DEBUG - Movido a (31, 8). Longitud: 9
+2025-07-20 22:17:24,790 - game.snake - DEBUG - Movido a (31, 9). Longitud: 9
+2025-07-20 22:17:24,941 - game.snake - DEBUG - Movido a (31, 10). Longitud: 9
+2025-07-20 22:17:25,076 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:17:25,092 - game.snake - DEBUG - Movido a (32, 10). Longitud: 9
+2025-07-20 22:17:25,243 - game.snake - DEBUG - Movido a (33, 10). Longitud: 9
+2025-07-20 22:17:25,393 - game.snake - DEBUG - Movido a (34, 10). Longitud: 9
+2025-07-20 22:17:25,543 - game.snake - DEBUG - Movido a (35, 10). Longitud: 9
+2025-07-20 22:17:25,693 - game.snake - DEBUG - Movido a (36, 10). Longitud: 9
+2025-07-20 22:17:25,846 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:17:25,846 - game.snake - DEBUG - Movido a (36, 11). Longitud: 9
+2025-07-20 22:17:26,010 - game.snake - DEBUG - Movido a (36, 12). Longitud: 9
+2025-07-20 22:17:26,160 - game.snake - DEBUG - Movido a (36, 13). Longitud: 9
+2025-07-20 22:17:26,313 - game.snake - DEBUG - Movido a (36, 14). Longitud: 9
+2025-07-20 22:17:26,476 - game.snake - DEBUG - Movido a (36, 15). Longitud: 9
+2025-07-20 22:17:26,626 - game.snake - DEBUG - Movido a (36, 16). Longitud: 9
+2025-07-20 22:17:26,778 - game.snake - DEBUG - Movido a (36, 17). Longitud: 9
+2025-07-20 22:17:26,942 - game.snake - DEBUG - Movido a (36, 18). Longitud: 9
+2025-07-20 22:17:27,092 - game.snake - DEBUG - Movido a (36, 19). Longitud: 9
+2025-07-20 22:17:27,243 - game.snake - DEBUG - Movido a (36, 20). Longitud: 9
+2025-07-20 22:17:27,408 - game.snake - DEBUG - Movido a (36, 21). Longitud: 9
+2025-07-20 22:17:27,559 - game.snake - DEBUG - Movido a (36, 22). Longitud: 9
+2025-07-20 22:17:27,713 - game.snake - DEBUG - Movido a (36, 23). Longitud: 9
+2025-07-20 22:17:27,865 - game.snake - DEBUG - Movido a (36, 24). Longitud: 9
+2025-07-20 22:17:28,030 - game.snake - DEBUG - Movido a (36, 25). Longitud: 9
+2025-07-20 22:17:28,196 - game.snake - DEBUG - Movido a (36, 26). Longitud: 9
+2025-07-20 22:17:28,350 - game.snake - DEBUG - Movido a (36, 27). Longitud: 9
+2025-07-20 22:17:28,503 - game.snake - DEBUG - Movido a (36, 28). Longitud: 9
+2025-07-20 22:17:28,654 - game.snake - DEBUG - Movido a (36, 29). Longitud: 9
+2025-07-20 22:17:28,654 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:17:28,655 - game.fruit - DEBUG - Fruta generada en (4, 19)
+2025-07-20 22:17:28,655 - game.board - INFO - Nuevo puntaje: 70
+2025-07-20 22:17:28,704 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:17:28,819 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:17:28,820 - game.snake - DEBUG - Movido a (35, 29). Longitud: 10
+2025-07-20 22:17:28,971 - game.snake - DEBUG - Movido a (34, 29). Longitud: 10
+2025-07-20 22:17:29,122 - game.snake - DEBUG - Movido a (33, 29). Longitud: 10
+2025-07-20 22:17:29,288 - game.snake - DEBUG - Movido a (32, 29). Longitud: 10
+2025-07-20 22:17:29,440 - game.snake - DEBUG - Movido a (31, 29). Longitud: 10
+2025-07-20 22:17:29,591 - game.snake - DEBUG - Movido a (30, 29). Longitud: 10
+2025-07-20 22:17:29,742 - game.snake - DEBUG - Movido a (29, 29). Longitud: 10
+2025-07-20 22:17:29,893 - game.snake - DEBUG - Movido a (28, 29). Longitud: 10
+2025-07-20 22:17:30,043 - game.snake - DEBUG - Movido a (27, 29). Longitud: 10
+2025-07-20 22:17:30,196 - game.snake - DEBUG - Movido a (26, 29). Longitud: 10
+2025-07-20 22:17:30,346 - game.snake - DEBUG - Movido a (25, 29). Longitud: 10
+2025-07-20 22:17:30,501 - game.snake - DEBUG - Movido a (24, 29). Longitud: 10
+2025-07-20 22:17:30,652 - game.snake - DEBUG - Movido a (23, 29). Longitud: 10
+2025-07-20 22:17:30,817 - game.snake - DEBUG - Movido a (22, 29). Longitud: 10
+2025-07-20 22:17:30,983 - game.snake - DEBUG - Movido a (21, 29). Longitud: 10
+2025-07-20 22:17:31,133 - game.snake - DEBUG - Movido a (20, 29). Longitud: 10
+2025-07-20 22:17:31,297 - game.snake - DEBUG - Movido a (19, 29). Longitud: 10
+2025-07-20 22:17:31,448 - game.snake - DEBUG - Movido a (18, 29). Longitud: 10
+2025-07-20 22:17:31,598 - game.snake - DEBUG - Movido a (17, 29). Longitud: 10
+2025-07-20 22:17:31,747 - game.snake - DEBUG - Movido a (16, 29). Longitud: 10
+2025-07-20 22:17:31,897 - game.snake - DEBUG - Movido a (15, 29). Longitud: 10
+2025-07-20 22:17:32,061 - game.snake - DEBUG - Movido a (14, 29). Longitud: 10
+2025-07-20 22:17:32,226 - game.snake - DEBUG - Movido a (13, 29). Longitud: 10
+2025-07-20 22:17:32,390 - game.snake - DEBUG - Movido a (12, 29). Longitud: 10
+2025-07-20 22:17:32,540 - game.snake - DEBUG - Movido a (11, 29). Longitud: 10
+2025-07-20 22:17:32,704 - game.snake - DEBUG - Movido a (10, 29). Longitud: 10
+2025-07-20 22:17:32,870 - game.snake - DEBUG - Movido a (9, 29). Longitud: 10
+2025-07-20 22:17:33,035 - game.snake - DEBUG - Movido a (8, 29). Longitud: 10
+2025-07-20 22:17:33,186 - game.snake - DEBUG - Movido a (7, 29). Longitud: 10
+2025-07-20 22:17:33,351 - game.snake - DEBUG - Movido a (6, 29). Longitud: 10
+2025-07-20 22:17:33,516 - game.snake - DEBUG - Movido a (5, 29). Longitud: 10
+2025-07-20 22:17:33,678 - game.snake - DEBUG - Movido a (4, 29). Longitud: 10
+2025-07-20 22:17:33,779 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:17:33,830 - game.snake - DEBUG - Movido a (4, 28). Longitud: 10
+2025-07-20 22:17:33,983 - game.snake - DEBUG - Movido a (4, 27). Longitud: 10
+2025-07-20 22:17:34,134 - game.snake - DEBUG - Movido a (4, 26). Longitud: 10
+2025-07-20 22:17:34,286 - game.snake - DEBUG - Movido a (4, 25). Longitud: 10
+2025-07-20 22:17:34,437 - game.snake - DEBUG - Movido a (4, 24). Longitud: 10
+2025-07-20 22:17:34,588 - game.snake - DEBUG - Movido a (4, 23). Longitud: 10
+2025-07-20 22:17:34,740 - game.snake - DEBUG - Movido a (4, 22). Longitud: 10
+2025-07-20 22:17:34,905 - game.snake - DEBUG - Movido a (4, 21). Longitud: 10
+2025-07-20 22:17:35,055 - game.snake - DEBUG - Movido a (4, 20). Longitud: 10
+2025-07-20 22:17:35,220 - game.snake - DEBUG - Movido a (4, 19). Longitud: 10
+2025-07-20 22:17:35,220 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:17:35,221 - game.fruit - DEBUG - Fruta generada en (36, 25)
+2025-07-20 22:17:35,221 - game.board - INFO - Nuevo puntaje: 80
+2025-07-20 22:17:35,372 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:17:35,372 - game.snake - DEBUG - Movido a (4, 18). Longitud: 11
+2025-07-20 22:17:35,521 - game.snake - DEBUG - Movido a (4, 17). Longitud: 11
+2025-07-20 22:17:35,684 - game.snake - DEBUG - Movido a (4, 16). Longitud: 11
+2025-07-20 22:17:35,835 - game.snake - DEBUG - Movido a (4, 15). Longitud: 11
+2025-07-20 22:17:35,987 - game.snake - DEBUG - Movido a (4, 14). Longitud: 11
+2025-07-20 22:17:36,153 - game.snake - DEBUG - Movido a (4, 13). Longitud: 11
+2025-07-20 22:17:36,303 - game.snake - DEBUG - Movido a (4, 12). Longitud: 11
+2025-07-20 22:17:36,351 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:17:36,468 - game.snake - DEBUG - Movido a (5, 12). Longitud: 11
+2025-07-20 22:17:36,633 - game.snake - DEBUG - Movido a (6, 12). Longitud: 11
+2025-07-20 22:17:36,783 - game.snake - DEBUG - Movido a (7, 12). Longitud: 11
+2025-07-20 22:17:36,948 - game.snake - DEBUG - Movido a (8, 12). Longitud: 11
+2025-07-20 22:17:37,099 - game.snake - DEBUG - Movido a (9, 12). Longitud: 11
+2025-07-20 22:17:37,249 - game.snake - DEBUG - Movido a (10, 12). Longitud: 11
+2025-07-20 22:17:37,398 - game.snake - DEBUG - Movido a (11, 12). Longitud: 11
+2025-07-20 22:17:37,549 - game.snake - DEBUG - Movido a (12, 12). Longitud: 11
+2025-07-20 22:17:37,714 - game.snake - DEBUG - Movido a (13, 12). Longitud: 11
+2025-07-20 22:17:37,880 - game.snake - DEBUG - Movido a (14, 12). Longitud: 11
+2025-07-20 22:17:38,047 - game.snake - DEBUG - Movido a (15, 12). Longitud: 11
+2025-07-20 22:17:38,213 - game.snake - DEBUG - Movido a (16, 12). Longitud: 11
+2025-07-20 22:17:38,365 - game.snake - DEBUG - Movido a (17, 12). Longitud: 11
+2025-07-20 22:17:38,517 - game.snake - DEBUG - Movido a (18, 12). Longitud: 11
+2025-07-20 22:17:38,681 - game.snake - DEBUG - Movido a (19, 12). Longitud: 11
+2025-07-20 22:17:38,833 - game.snake - DEBUG - Movido a (20, 12). Longitud: 11
+2025-07-20 22:17:38,982 - game.snake - DEBUG - Movido a (21, 12). Longitud: 11
+2025-07-20 22:17:39,135 - game.snake - DEBUG - Movido a (22, 12). Longitud: 11
+2025-07-20 22:17:39,285 - game.snake - DEBUG - Movido a (23, 12). Longitud: 11
+2025-07-20 22:17:39,435 - game.snake - DEBUG - Movido a (24, 12). Longitud: 11
+2025-07-20 22:17:39,585 - game.snake - DEBUG - Movido a (25, 12). Longitud: 11
+2025-07-20 22:17:39,750 - game.snake - DEBUG - Movido a (26, 12). Longitud: 11
+2025-07-20 22:17:39,914 - game.snake - DEBUG - Movido a (27, 12). Longitud: 11
+2025-07-20 22:17:40,066 - game.snake - DEBUG - Movido a (28, 12). Longitud: 11
+2025-07-20 22:17:40,232 - game.snake - DEBUG - Movido a (29, 12). Longitud: 11
+2025-07-20 22:17:40,382 - game.snake - DEBUG - Movido a (30, 12). Longitud: 11
+2025-07-20 22:17:40,533 - game.snake - DEBUG - Movido a (31, 12). Longitud: 11
+2025-07-20 22:17:40,683 - game.snake - DEBUG - Movido a (32, 12). Longitud: 11
+2025-07-20 22:17:40,848 - game.snake - DEBUG - Movido a (33, 12). Longitud: 11
+2025-07-20 22:17:41,002 - game.snake - DEBUG - Movido a (34, 12). Longitud: 11
+2025-07-20 22:17:41,167 - game.snake - DEBUG - Movido a (35, 12). Longitud: 11
+2025-07-20 22:17:41,317 - game.snake - DEBUG - Movido a (36, 12). Longitud: 11
+2025-07-20 22:17:41,400 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:17:41,483 - game.snake - DEBUG - Movido a (36, 13). Longitud: 11
+2025-07-20 22:17:41,633 - game.snake - DEBUG - Movido a (36, 14). Longitud: 11
+2025-07-20 22:17:41,782 - game.snake - DEBUG - Movido a (36, 15). Longitud: 11
+2025-07-20 22:17:41,934 - game.snake - DEBUG - Movido a (36, 16). Longitud: 11
+2025-07-20 22:17:42,086 - game.snake - DEBUG - Movido a (36, 17). Longitud: 11
+2025-07-20 22:17:42,236 - game.snake - DEBUG - Movido a (36, 18). Longitud: 11
+2025-07-20 22:17:42,386 - game.snake - DEBUG - Movido a (36, 19). Longitud: 11
+2025-07-20 22:17:42,536 - game.snake - DEBUG - Movido a (36, 20). Longitud: 11
+2025-07-20 22:17:42,686 - game.snake - DEBUG - Movido a (36, 21). Longitud: 11
+2025-07-20 22:17:42,836 - game.snake - DEBUG - Movido a (36, 22). Longitud: 11
+2025-07-20 22:17:42,986 - game.snake - DEBUG - Movido a (36, 23). Longitud: 11
+2025-07-20 22:17:43,138 - game.snake - DEBUG - Movido a (36, 24). Longitud: 11
+2025-07-20 22:17:43,290 - game.snake - DEBUG - Movido a (36, 25). Longitud: 11
+2025-07-20 22:17:43,290 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:17:43,291 - game.fruit - DEBUG - Fruta generada en (19, 3)
+2025-07-20 22:17:43,291 - game.board - INFO - Nuevo puntaje: 90
+2025-07-20 22:17:43,440 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:17:43,440 - game.snake - DEBUG - Movido a (36, 26). Longitud: 12
+2025-07-20 22:17:43,507 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:17:43,591 - game.snake - DEBUG - Movido a (35, 26). Longitud: 12
+2025-07-20 22:17:43,756 - game.snake - DEBUG - Movido a (34, 26). Longitud: 12
+2025-07-20 22:17:43,906 - game.snake - DEBUG - Movido a (33, 26). Longitud: 12
+2025-07-20 22:17:44,057 - game.snake - DEBUG - Movido a (32, 26). Longitud: 12
+2025-07-20 22:17:44,125 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:17:44,208 - game.snake - DEBUG - Movido a (32, 25). Longitud: 12
+2025-07-20 22:17:44,359 - game.snake - DEBUG - Movido a (32, 24). Longitud: 12
+2025-07-20 22:17:44,509 - game.snake - DEBUG - Movido a (32, 23). Longitud: 12
+2025-07-20 22:17:44,663 - game.snake - DEBUG - Movido a (32, 22). Longitud: 12
+2025-07-20 22:17:44,813 - game.snake - DEBUG - Movido a (32, 21). Longitud: 12
+2025-07-20 22:17:44,967 - game.snake - DEBUG - Movido a (32, 20). Longitud: 12
+2025-07-20 22:17:45,120 - game.snake - DEBUG - Movido a (32, 19). Longitud: 12
+2025-07-20 22:17:45,285 - game.snake - DEBUG - Movido a (32, 18). Longitud: 12
+2025-07-20 22:17:45,439 - game.snake - DEBUG - Movido a (32, 17). Longitud: 12
+2025-07-20 22:17:45,603 - game.snake - DEBUG - Movido a (32, 16). Longitud: 12
+2025-07-20 22:17:45,768 - game.snake - DEBUG - Movido a (32, 15). Longitud: 12
+2025-07-20 22:17:45,920 - game.snake - DEBUG - Movido a (32, 14). Longitud: 12
+2025-07-20 22:17:46,073 - game.snake - DEBUG - Movido a (32, 13). Longitud: 12
+2025-07-20 22:17:46,239 - game.snake - DEBUG - Movido a (32, 12). Longitud: 12
+2025-07-20 22:17:46,403 - game.snake - DEBUG - Movido a (32, 11). Longitud: 12
+2025-07-20 22:17:46,569 - game.snake - DEBUG - Movido a (32, 10). Longitud: 12
+2025-07-20 22:17:46,735 - game.snake - DEBUG - Movido a (32, 9). Longitud: 12
+2025-07-20 22:17:46,885 - game.snake - DEBUG - Movido a (32, 8). Longitud: 12
+2025-07-20 22:17:47,036 - game.snake - DEBUG - Movido a (32, 7). Longitud: 12
+2025-07-20 22:17:47,188 - game.snake - DEBUG - Movido a (32, 6). Longitud: 12
+2025-07-20 22:17:47,353 - game.snake - DEBUG - Movido a (32, 5). Longitud: 12
+2025-07-20 22:17:47,505 - game.snake - DEBUG - Movido a (32, 4). Longitud: 12
+2025-07-20 22:17:47,658 - game.snake - DEBUG - Movido a (32, 3). Longitud: 12
+2025-07-20 22:17:47,710 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:17:47,808 - game.snake - DEBUG - Movido a (31, 3). Longitud: 12
+2025-07-20 22:17:47,958 - game.snake - DEBUG - Movido a (30, 3). Longitud: 12
+2025-07-20 22:17:48,109 - game.snake - DEBUG - Movido a (29, 3). Longitud: 12
+2025-07-20 22:17:48,261 - game.snake - DEBUG - Movido a (28, 3). Longitud: 12
+2025-07-20 22:17:48,426 - game.snake - DEBUG - Movido a (27, 3). Longitud: 12
+2025-07-20 22:17:48,576 - game.snake - DEBUG - Movido a (26, 3). Longitud: 12
+2025-07-20 22:17:48,726 - game.snake - DEBUG - Movido a (25, 3). Longitud: 12
+2025-07-20 22:17:48,878 - game.snake - DEBUG - Movido a (24, 3). Longitud: 12
+2025-07-20 22:17:49,042 - game.snake - DEBUG - Movido a (23, 3). Longitud: 12
+2025-07-20 22:17:49,206 - game.snake - DEBUG - Movido a (22, 3). Longitud: 12
+2025-07-20 22:17:49,356 - game.snake - DEBUG - Movido a (21, 3). Longitud: 12
+2025-07-20 22:17:49,506 - game.snake - DEBUG - Movido a (20, 3). Longitud: 12
+2025-07-20 22:17:49,659 - game.snake - DEBUG - Movido a (19, 3). Longitud: 12
+2025-07-20 22:17:49,660 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:17:49,660 - game.fruit - DEBUG - Fruta generada en (28, 19)
+2025-07-20 22:17:49,661 - game.board - INFO - Nuevo puntaje: 100
+2025-07-20 22:17:49,812 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:17:49,813 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:17:49,813 - game.snake - DEBUG - Movido a (19, 4). Longitud: 13
+2025-07-20 22:17:49,963 - game.snake - DEBUG - Movido a (19, 5). Longitud: 13
+2025-07-20 22:17:50,116 - game.snake - DEBUG - Movido a (19, 6). Longitud: 13
+2025-07-20 22:17:50,270 - game.snake - DEBUG - Movido a (19, 7). Longitud: 13
+2025-07-20 22:17:50,311 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:17:50,429 - game.snake - DEBUG - Movido a (20, 7). Longitud: 13
+2025-07-20 22:17:50,593 - game.snake - DEBUG - Movido a (21, 7). Longitud: 13
+2025-07-20 22:17:50,745 - game.snake - DEBUG - Movido a (22, 7). Longitud: 13
+2025-07-20 22:17:50,895 - game.snake - DEBUG - Movido a (23, 7). Longitud: 13
+2025-07-20 22:17:51,046 - game.snake - DEBUG - Movido a (24, 7). Longitud: 13
+2025-07-20 22:17:51,212 - game.snake - DEBUG - Movido a (25, 7). Longitud: 13
+2025-07-20 22:17:51,363 - game.snake - DEBUG - Movido a (26, 7). Longitud: 13
+2025-07-20 22:17:51,513 - game.snake - DEBUG - Movido a (27, 7). Longitud: 13
+2025-07-20 22:17:51,663 - game.snake - DEBUG - Movido a (28, 7). Longitud: 13
+2025-07-20 22:17:51,764 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:17:51,815 - game.snake - DEBUG - Movido a (28, 8). Longitud: 13
+2025-07-20 22:17:51,966 - game.snake - DEBUG - Movido a (28, 9). Longitud: 13
+2025-07-20 22:17:52,132 - game.snake - DEBUG - Movido a (28, 10). Longitud: 13
+2025-07-20 22:17:52,296 - game.snake - DEBUG - Movido a (28, 11). Longitud: 13
+2025-07-20 22:17:52,449 - game.snake - DEBUG - Movido a (28, 12). Longitud: 13
+2025-07-20 22:17:52,602 - game.snake - DEBUG - Movido a (28, 13). Longitud: 13
+2025-07-20 22:17:52,753 - game.snake - DEBUG - Movido a (28, 14). Longitud: 13
+2025-07-20 22:17:52,906 - game.snake - DEBUG - Movido a (28, 15). Longitud: 13
+2025-07-20 22:17:53,071 - game.snake - DEBUG - Movido a (28, 16). Longitud: 13
+2025-07-20 22:17:53,223 - game.snake - DEBUG - Movido a (28, 17). Longitud: 13
+2025-07-20 22:17:53,373 - game.snake - DEBUG - Movido a (28, 18). Longitud: 13
+2025-07-20 22:17:53,525 - game.snake - DEBUG - Movido a (28, 19). Longitud: 13
+2025-07-20 22:17:53,526 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:17:53,526 - game.fruit - DEBUG - Fruta generada en (31, 20)
+2025-07-20 22:17:53,527 - game.board - INFO - Nuevo puntaje: 110
+2025-07-20 22:17:53,593 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:17:53,676 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:17:53,676 - game.snake - DEBUG - Movido a (27, 19). Longitud: 14
+2025-07-20 22:17:53,827 - game.snake - DEBUG - Movido a (26, 19). Longitud: 14
+2025-07-20 22:17:53,993 - game.snake - DEBUG - Movido a (25, 19). Longitud: 14
+2025-07-20 22:17:54,156 - game.snake - DEBUG - Movido a (24, 19). Longitud: 14
+2025-07-20 22:17:54,308 - game.snake - DEBUG - Movido a (23, 19). Longitud: 14
+2025-07-20 22:17:54,463 - game.snake - DEBUG - Movido a (22, 19). Longitud: 14
+2025-07-20 22:17:54,497 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:17:54,613 - game.snake - DEBUG - Movido a (22, 18). Longitud: 14
+2025-07-20 22:17:54,768 - game.snake - DEBUG - Movido a (22, 17). Longitud: 14
+2025-07-20 22:17:54,919 - game.snake - DEBUG - Movido a (22, 16). Longitud: 14
+2025-07-20 22:17:55,070 - game.snake - DEBUG - Movido a (22, 15). Longitud: 14
+2025-07-20 22:17:55,223 - game.snake - DEBUG - Movido a (22, 14). Longitud: 14
+2025-07-20 22:17:55,342 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:17:55,373 - game.snake - DEBUG - Movido a (23, 14). Longitud: 14
+2025-07-20 22:17:55,528 - game.snake - DEBUG - Movido a (24, 14). Longitud: 14
+2025-07-20 22:17:55,678 - game.snake - DEBUG - Movido a (25, 14). Longitud: 14
+2025-07-20 22:17:55,843 - game.snake - DEBUG - Movido a (26, 14). Longitud: 14
+2025-07-20 22:17:56,009 - game.snake - DEBUG - Movido a (27, 14). Longitud: 14
+2025-07-20 22:17:56,162 - game.snake - DEBUG - Movido a (28, 14). Longitud: 14
+2025-07-20 22:17:56,312 - game.snake - DEBUG - Movido a (29, 14). Longitud: 14
+2025-07-20 22:17:56,465 - game.snake - DEBUG - Movido a (30, 14). Longitud: 14
+2025-07-20 22:17:56,603 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:17:56,620 - game.snake - DEBUG - Movido a (30, 15). Longitud: 14
+2025-07-20 22:17:56,773 - game.snake - DEBUG - Movido a (30, 16). Longitud: 14
+2025-07-20 22:17:56,926 - game.snake - DEBUG - Movido a (30, 17). Longitud: 14
+2025-07-20 22:17:57,076 - game.snake - DEBUG - Movido a (30, 18). Longitud: 14
+2025-07-20 22:17:57,243 - game.snake - DEBUG - Movido a (30, 19). Longitud: 14
+2025-07-20 22:17:57,393 - game.snake - DEBUG - Movido a (30, 20). Longitud: 14
+2025-07-20 22:17:57,443 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:17:57,542 - game.snake - DEBUG - Movido a (31, 20). Longitud: 14
+2025-07-20 22:17:57,543 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:17:57,543 - game.fruit - DEBUG - Fruta generada en (37, 0)
+2025-07-20 22:17:57,544 - game.board - INFO - Nuevo puntaje: 120
+2025-07-20 22:17:57,709 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:17:57,710 - game.snake - DEBUG - Movido a (32, 20). Longitud: 15
+2025-07-20 22:17:57,863 - game.snake - DEBUG - Movido a (33, 20). Longitud: 15
+2025-07-20 22:17:58,017 - game.snake - DEBUG - Movido a (34, 20). Longitud: 15
+2025-07-20 22:17:58,167 - game.snake - DEBUG - Movido a (35, 20). Longitud: 15
+2025-07-20 22:17:58,320 - game.snake - DEBUG - Movido a (36, 20). Longitud: 15
+2025-07-20 22:17:58,472 - game.snake - DEBUG - Movido a (37, 20). Longitud: 15
+2025-07-20 22:17:58,623 - game.snake - DEBUG - Movido a (38, 20). Longitud: 15
+2025-07-20 22:17:58,705 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:17:58,789 - game.snake - DEBUG - Movido a (38, 19). Longitud: 15
+2025-07-20 22:17:58,939 - game.snake - DEBUG - Movido a (38, 18). Longitud: 15
+2025-07-20 22:17:59,093 - game.snake - DEBUG - Movido a (38, 17). Longitud: 15
+2025-07-20 22:17:59,245 - game.snake - DEBUG - Movido a (38, 16). Longitud: 15
+2025-07-20 22:17:59,398 - game.snake - DEBUG - Movido a (38, 15). Longitud: 15
+2025-07-20 22:17:59,550 - game.snake - DEBUG - Movido a (38, 14). Longitud: 15
+2025-07-20 22:17:59,703 - game.snake - DEBUG - Movido a (38, 13). Longitud: 15
+2025-07-20 22:17:59,854 - game.snake - DEBUG - Movido a (38, 12). Longitud: 15
+2025-07-20 22:18:00,020 - game.snake - DEBUG - Movido a (38, 11). Longitud: 15
+2025-07-20 22:18:00,170 - game.snake - DEBUG - Movido a (38, 10). Longitud: 15
+2025-07-20 22:18:00,321 - game.snake - DEBUG - Movido a (38, 9). Longitud: 15
+2025-07-20 22:18:00,475 - game.snake - DEBUG - Movido a (38, 8). Longitud: 15
+2025-07-20 22:18:00,625 - game.snake - DEBUG - Movido a (38, 7). Longitud: 15
+2025-07-20 22:18:00,776 - game.snake - DEBUG - Movido a (38, 6). Longitud: 15
+2025-07-20 22:18:00,925 - game.snake - DEBUG - Movido a (38, 5). Longitud: 15
+2025-07-20 22:18:01,076 - game.snake - DEBUG - Movido a (38, 4). Longitud: 15
+2025-07-20 22:18:01,225 - game.snake - DEBUG - Movido a (38, 3). Longitud: 15
+2025-07-20 22:18:01,380 - game.snake - DEBUG - Movido a (38, 2). Longitud: 15
+2025-07-20 22:18:01,532 - game.snake - DEBUG - Movido a (38, 1). Longitud: 15
+2025-07-20 22:18:01,663 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:18:01,696 - game.snake - DEBUG - Movido a (37, 1). Longitud: 15
+2025-07-20 22:18:01,862 - game.snake - DEBUG - Movido a (36, 1). Longitud: 15
+2025-07-20 22:18:02,025 - game.snake - DEBUG - Movido a (35, 1). Longitud: 15
+2025-07-20 22:18:02,178 - game.snake - DEBUG - Movido a (34, 1). Longitud: 15
+2025-07-20 22:18:02,330 - game.snake - DEBUG - Movido a (33, 1). Longitud: 15
+2025-07-20 22:18:02,481 - game.snake - DEBUG - Movido a (32, 1). Longitud: 15
+2025-07-20 22:18:02,632 - game.snake - DEBUG - Movido a (31, 1). Longitud: 15
+2025-07-20 22:18:02,798 - game.snake - DEBUG - Movido a (30, 1). Longitud: 15
+2025-07-20 22:18:02,963 - game.snake - DEBUG - Movido a (29, 1). Longitud: 15
+2025-07-20 22:18:03,113 - game.snake - DEBUG - Movido a (28, 1). Longitud: 15
+2025-07-20 22:18:03,277 - game.snake - DEBUG - Movido a (27, 1). Longitud: 15
+2025-07-20 22:18:03,429 - game.snake - DEBUG - Movido a (26, 1). Longitud: 15
+2025-07-20 22:18:03,546 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:03,579 - game.snake - DEBUG - Movido a (26, 0). Longitud: 15
+2025-07-20 22:18:03,631 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:03,729 - game.snake - DEBUG - Movido a (27, 0). Longitud: 15
+2025-07-20 22:18:03,880 - game.snake - DEBUG - Movido a (28, 0). Longitud: 15
+2025-07-20 22:18:04,033 - game.snake - DEBUG - Movido a (29, 0). Longitud: 15
+2025-07-20 22:18:04,183 - game.snake - DEBUG - Movido a (30, 0). Longitud: 15
+2025-07-20 22:18:04,333 - game.snake - DEBUG - Movido a (31, 0). Longitud: 15
+2025-07-20 22:18:04,498 - game.snake - DEBUG - Movido a (32, 0). Longitud: 15
+2025-07-20 22:18:04,649 - game.snake - DEBUG - Movido a (33, 0). Longitud: 15
+2025-07-20 22:18:04,800 - game.snake - DEBUG - Movido a (34, 0). Longitud: 15
+2025-07-20 22:18:04,965 - game.snake - DEBUG - Movido a (35, 0). Longitud: 15
+2025-07-20 22:18:05,116 - game.snake - DEBUG - Movido a (36, 0). Longitud: 15
+2025-07-20 22:18:05,268 - game.snake - DEBUG - Movido a (37, 0). Longitud: 15
+2025-07-20 22:18:05,269 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:18:05,270 - game.fruit - DEBUG - Fruta generada en (7, 0)
+2025-07-20 22:18:05,271 - game.board - INFO - Nuevo puntaje: 130
+2025-07-20 22:18:05,370 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:05,420 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:18:05,421 - game.snake - DEBUG - Movido a (37, 1). Longitud: 16
+2025-07-20 22:18:05,571 - game.snake - DEBUG - Movido a (37, 2). Longitud: 16
+2025-07-20 22:18:05,722 - game.snake - DEBUG - Movido a (37, 3). Longitud: 16
+2025-07-20 22:18:05,773 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:18:05,873 - game.snake - DEBUG - Movido a (36, 3). Longitud: 16
+2025-07-20 22:18:06,025 - game.snake - DEBUG - Movido a (35, 3). Longitud: 16
+2025-07-20 22:18:06,178 - game.snake - DEBUG - Movido a (34, 3). Longitud: 16
+2025-07-20 22:18:06,333 - game.snake - DEBUG - Movido a (33, 3). Longitud: 16
+2025-07-20 22:18:06,485 - game.snake - DEBUG - Movido a (32, 3). Longitud: 16
+2025-07-20 22:18:06,636 - game.snake - DEBUG - Movido a (31, 3). Longitud: 16
+2025-07-20 22:18:06,803 - game.snake - DEBUG - Movido a (30, 3). Longitud: 16
+2025-07-20 22:18:06,968 - game.snake - DEBUG - Movido a (29, 3). Longitud: 16
+2025-07-20 22:18:07,120 - game.snake - DEBUG - Movido a (28, 3). Longitud: 16
+2025-07-20 22:18:07,171 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:07,286 - game.snake - DEBUG - Movido a (28, 2). Longitud: 16
+2025-07-20 22:18:07,436 - game.snake - DEBUG - Movido a (28, 1). Longitud: 16
+2025-07-20 22:18:07,586 - game.snake - DEBUG - Movido a (28, 0). Longitud: 16
+2025-07-20 22:18:07,619 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:18:07,749 - game.snake - DEBUG - Movido a (27, 0). Longitud: 16
+2025-07-20 22:18:07,902 - game.snake - DEBUG - Movido a (26, 0). Longitud: 16
+2025-07-20 22:18:08,055 - game.snake - DEBUG - Movido a (25, 0). Longitud: 16
+2025-07-20 22:18:08,206 - game.snake - DEBUG - Movido a (24, 0). Longitud: 16
+2025-07-20 22:18:08,361 - game.snake - DEBUG - Movido a (23, 0). Longitud: 16
+2025-07-20 22:18:08,512 - game.snake - DEBUG - Movido a (22, 0). Longitud: 16
+2025-07-20 22:18:08,663 - game.snake - DEBUG - Movido a (21, 0). Longitud: 16
+2025-07-20 22:18:08,814 - game.snake - DEBUG - Movido a (20, 0). Longitud: 16
+2025-07-20 22:18:08,980 - game.snake - DEBUG - Movido a (19, 0). Longitud: 16
+2025-07-20 22:18:09,130 - game.snake - DEBUG - Movido a (18, 0). Longitud: 16
+2025-07-20 22:18:09,279 - game.snake - DEBUG - Movido a (17, 0). Longitud: 16
+2025-07-20 22:18:09,432 - game.snake - DEBUG - Movido a (16, 0). Longitud: 16
+2025-07-20 22:18:09,585 - game.snake - DEBUG - Movido a (15, 0). Longitud: 16
+2025-07-20 22:18:09,740 - game.snake - DEBUG - Movido a (14, 0). Longitud: 16
+2025-07-20 22:18:09,890 - game.snake - DEBUG - Movido a (13, 0). Longitud: 16
+2025-07-20 22:18:10,040 - game.snake - DEBUG - Movido a (12, 0). Longitud: 16
+2025-07-20 22:18:10,191 - game.snake - DEBUG - Movido a (11, 0). Longitud: 16
+2025-07-20 22:18:10,341 - game.snake - DEBUG - Movido a (10, 0). Longitud: 16
+2025-07-20 22:18:10,493 - game.snake - DEBUG - Movido a (9, 0). Longitud: 16
+2025-07-20 22:18:10,659 - game.snake - DEBUG - Movido a (8, 0). Longitud: 16
+2025-07-20 22:18:10,812 - game.snake - DEBUG - Movido a (7, 0). Longitud: 16
+2025-07-20 22:18:10,812 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:18:10,812 - game.fruit - DEBUG - Fruta generada en (4, 9)
+2025-07-20 22:18:10,813 - game.board - INFO - Nuevo puntaje: 140
+2025-07-20 22:18:10,963 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:18:10,963 - game.snake - DEBUG - Movido a (6, 0). Longitud: 17
+2025-07-20 22:18:11,128 - game.snake - DEBUG - Movido a (5, 0). Longitud: 17
+2025-07-20 22:18:11,279 - game.snake - DEBUG - Movido a (4, 0). Longitud: 17
+2025-07-20 22:18:11,445 - game.snake - DEBUG - Movido a (3, 0). Longitud: 17
+2025-07-20 22:18:11,495 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:11,609 - game.snake - DEBUG - Movido a (3, 1). Longitud: 17
+2025-07-20 22:18:11,775 - game.snake - DEBUG - Movido a (3, 2). Longitud: 17
+2025-07-20 22:18:11,926 - game.snake - DEBUG - Movido a (3, 3). Longitud: 17
+2025-07-20 22:18:12,076 - game.snake - DEBUG - Movido a (3, 4). Longitud: 17
+2025-07-20 22:18:12,242 - game.snake - DEBUG - Movido a (3, 5). Longitud: 17
+2025-07-20 22:18:12,407 - game.snake - DEBUG - Movido a (3, 6). Longitud: 17
+2025-07-20 22:18:12,558 - game.snake - DEBUG - Movido a (3, 7). Longitud: 17
+2025-07-20 22:18:12,709 - game.snake - DEBUG - Movido a (3, 8). Longitud: 17
+2025-07-20 22:18:12,792 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:12,876 - game.snake - DEBUG - Movido a (4, 8). Longitud: 17
+2025-07-20 22:18:13,028 - game.snake - DEBUG - Movido a (5, 8). Longitud: 17
+2025-07-20 22:18:13,193 - game.snake - DEBUG - Movido a (6, 8). Longitud: 17
+2025-07-20 22:18:13,358 - game.snake - DEBUG - Movido a (7, 8). Longitud: 17
+2025-07-20 22:18:13,509 - game.snake - DEBUG - Movido a (8, 8). Longitud: 17
+2025-07-20 22:18:13,675 - game.snake - DEBUG - Movido a (9, 8). Longitud: 17
+2025-07-20 22:18:13,825 - game.snake - DEBUG - Movido a (10, 8). Longitud: 17
+2025-07-20 22:18:13,991 - game.snake - DEBUG - Movido a (11, 8). Longitud: 17
+2025-07-20 22:18:14,141 - game.snake - DEBUG - Movido a (12, 8). Longitud: 17
+2025-07-20 22:18:14,306 - game.snake - DEBUG - Movido a (13, 8). Longitud: 17
+2025-07-20 22:18:14,456 - game.snake - DEBUG - Movido a (14, 8). Longitud: 17
+2025-07-20 22:18:14,609 - game.snake - DEBUG - Movido a (15, 8). Longitud: 17
+2025-07-20 22:18:14,760 - game.snake - DEBUG - Movido a (16, 8). Longitud: 17
+2025-07-20 22:18:14,926 - game.snake - DEBUG - Movido a (17, 8). Longitud: 17
+2025-07-20 22:18:14,961 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:15,091 - game.snake - DEBUG - Movido a (17, 9). Longitud: 17
+2025-07-20 22:18:15,256 - game.snake - DEBUG - Movido a (17, 10). Longitud: 17
+2025-07-20 22:18:15,409 - game.snake - DEBUG - Movido a (17, 11). Longitud: 17
+2025-07-20 22:18:15,558 - game.snake - DEBUG - Movido a (17, 12). Longitud: 17
+2025-07-20 22:18:15,711 - game.snake - DEBUG - Movido a (17, 13). Longitud: 17
+2025-07-20 22:18:15,745 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:18:15,861 - game.snake - DEBUG - Movido a (16, 13). Longitud: 17
+2025-07-20 22:18:16,014 - game.snake - DEBUG - Movido a (15, 13). Longitud: 17
+2025-07-20 22:18:16,166 - game.snake - DEBUG - Movido a (14, 13). Longitud: 17
+2025-07-20 22:18:16,316 - game.snake - DEBUG - Movido a (13, 13). Longitud: 17
+2025-07-20 22:18:16,466 - game.snake - DEBUG - Movido a (12, 13). Longitud: 17
+2025-07-20 22:18:16,616 - game.snake - DEBUG - Movido a (11, 13). Longitud: 17
+2025-07-20 22:18:16,782 - game.snake - DEBUG - Movido a (10, 13). Longitud: 17
+2025-07-20 22:18:16,932 - game.snake - DEBUG - Movido a (9, 13). Longitud: 17
+2025-07-20 22:18:17,082 - game.snake - DEBUG - Movido a (8, 13). Longitud: 17
+2025-07-20 22:18:17,249 - game.snake - DEBUG - Movido a (7, 13). Longitud: 17
+2025-07-20 22:18:17,415 - game.snake - DEBUG - Movido a (6, 13). Longitud: 17
+2025-07-20 22:18:17,566 - game.snake - DEBUG - Movido a (5, 13). Longitud: 17
+2025-07-20 22:18:17,731 - game.snake - DEBUG - Movido a (4, 13). Longitud: 17
+2025-07-20 22:18:17,862 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:17,896 - game.snake - DEBUG - Movido a (4, 12). Longitud: 17
+2025-07-20 22:18:18,046 - game.snake - DEBUG - Movido a (4, 11). Longitud: 17
+2025-07-20 22:18:18,198 - game.snake - DEBUG - Movido a (4, 10). Longitud: 17
+2025-07-20 22:18:18,362 - game.snake - DEBUG - Movido a (4, 9). Longitud: 17
+2025-07-20 22:18:18,363 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:18:18,363 - game.fruit - DEBUG - Fruta generada en (9, 17)
+2025-07-20 22:18:18,364 - game.board - INFO - Nuevo puntaje: 150
+2025-07-20 22:18:18,514 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:18:18,514 - game.snake - DEBUG - Movido a (4, 8). Longitud: 18
+2025-07-20 22:18:18,681 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:18,681 - game.snake - DEBUG - Movido a (5, 8). Longitud: 18
+2025-07-20 22:18:18,798 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:18,832 - game.snake - DEBUG - Movido a (5, 7). Longitud: 18
+2025-07-20 22:18:18,983 - game.snake - DEBUG - Movido a (5, 6). Longitud: 18
+2025-07-20 22:18:19,000 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:19,036 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:19,136 - game.snake - DEBUG - Movido a (5, 5). Longitud: 18
+2025-07-20 22:18:19,202 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:19,287 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:19,288 - game.snake - DEBUG - Movido a (5, 4). Longitud: 18
+2025-07-20 22:18:19,453 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:19,453 - game.snake - DEBUG - Movido a (6, 4). Longitud: 18
+2025-07-20 22:18:19,552 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:19,620 - game.snake - DEBUG - Movido a (6, 3). Longitud: 18
+2025-07-20 22:18:19,785 - game.snake - DEBUG - Movido a (6, 2). Longitud: 18
+2025-07-20 22:18:19,937 - game.snake - DEBUG - Movido a (6, 1). Longitud: 18
+2025-07-20 22:18:19,987 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:20,087 - game.snake - DEBUG - Movido a (7, 1). Longitud: 18
+2025-07-20 22:18:20,239 - game.snake - DEBUG - Movido a (8, 1). Longitud: 18
+2025-07-20 22:18:20,390 - game.snake - DEBUG - Movido a (9, 1). Longitud: 18
+2025-07-20 22:18:20,539 - game.snake - DEBUG - Movido a (10, 1). Longitud: 18
+2025-07-20 22:18:20,557 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:20,693 - game.snake - DEBUG - Movido a (10, 2). Longitud: 18
+2025-07-20 22:18:20,842 - game.snake - DEBUG - Movido a (10, 3). Longitud: 18
+2025-07-20 22:18:20,994 - game.snake - DEBUG - Movido a (10, 4). Longitud: 18
+2025-07-20 22:18:21,111 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:18:21,145 - game.snake - DEBUG - Movido a (9, 4). Longitud: 18
+2025-07-20 22:18:21,245 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:21,310 - game.snake - DEBUG - Movido a (9, 5). Longitud: 18
+2025-07-20 22:18:21,460 - game.snake - DEBUG - Movido a (9, 6). Longitud: 18
+2025-07-20 22:18:21,609 - game.snake - DEBUG - Movido a (9, 7). Longitud: 18
+2025-07-20 22:18:21,776 - game.snake - DEBUG - Movido a (9, 8). Longitud: 18
+2025-07-20 22:18:21,927 - game.snake - DEBUG - Movido a (9, 9). Longitud: 18
+2025-07-20 22:18:22,092 - game.snake - DEBUG - Movido a (9, 10). Longitud: 18
+2025-07-20 22:18:22,257 - game.snake - DEBUG - Movido a (9, 11). Longitud: 18
+2025-07-20 22:18:22,409 - game.snake - DEBUG - Movido a (9, 12). Longitud: 18
+2025-07-20 22:18:22,559 - game.snake - DEBUG - Movido a (9, 13). Longitud: 18
+2025-07-20 22:18:22,710 - game.snake - DEBUG - Movido a (9, 14). Longitud: 18
+2025-07-20 22:18:22,875 - game.snake - DEBUG - Movido a (9, 15). Longitud: 18
+2025-07-20 22:18:23,028 - game.snake - DEBUG - Movido a (9, 16). Longitud: 18
+2025-07-20 22:18:23,183 - game.snake - DEBUG - Movido a (9, 17). Longitud: 18
+2025-07-20 22:18:23,184 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:18:23,184 - game.fruit - DEBUG - Fruta generada en (16, 18)
+2025-07-20 22:18:23,185 - game.board - INFO - Nuevo puntaje: 160
+2025-07-20 22:18:23,200 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:23,347 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:18:23,348 - game.snake - DEBUG - Movido a (10, 17). Longitud: 19
+2025-07-20 22:18:23,382 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:23,498 - game.snake - DEBUG - Movido a (10, 18). Longitud: 19
+2025-07-20 22:18:23,649 - game.snake - DEBUG - Movido a (10, 19). Longitud: 19
+2025-07-20 22:18:23,682 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:23,812 - game.snake - DEBUG - Movido a (11, 19). Longitud: 19
+2025-07-20 22:18:23,830 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:23,946 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:23,962 - game.snake - DEBUG - Movido a (12, 19). Longitud: 19
+2025-07-20 22:18:24,114 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:24,115 - game.snake - DEBUG - Movido a (12, 20). Longitud: 19
+2025-07-20 22:18:24,264 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:24,265 - game.snake - DEBUG - Movido a (13, 20). Longitud: 19
+2025-07-20 22:18:24,366 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:24,415 - game.snake - DEBUG - Movido a (13, 21). Longitud: 19
+2025-07-20 22:18:24,550 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:24,566 - game.snake - DEBUG - Movido a (14, 21). Longitud: 19
+2025-07-20 22:18:24,616 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:24,719 - game.snake - DEBUG - Movido a (14, 22). Longitud: 19
+2025-07-20 22:18:24,806 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:24,885 - game.snake - DEBUG - Movido a (15, 22). Longitud: 19
+2025-07-20 22:18:24,919 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:25,036 - game.snake - DEBUG - Movido a (15, 23). Longitud: 19
+2025-07-20 22:18:25,086 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:25,153 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:25,186 - game.snake - DEBUG - Movido a (15, 24). Longitud: 19
+2025-07-20 22:18:25,318 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:25,335 - game.snake - DEBUG - Movido a (16, 24). Longitud: 19
+2025-07-20 22:18:25,420 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:25,486 - game.snake - DEBUG - Movido a (16, 25). Longitud: 19
+2025-07-20 22:18:25,605 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:25,638 - game.snake - DEBUG - Movido a (17, 25). Longitud: 19
+2025-07-20 22:18:25,689 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:25,788 - game.snake - DEBUG - Movido a (17, 26). Longitud: 19
+2025-07-20 22:18:25,938 - game.snake - DEBUG - Movido a (17, 27). Longitud: 19
+2025-07-20 22:18:26,088 - game.snake - DEBUG - Movido a (17, 28). Longitud: 19
+2025-07-20 22:18:26,239 - game.snake - DEBUG - Movido a (17, 29). Longitud: 19
+2025-07-20 22:18:26,290 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:26,391 - game.snake - DEBUG - Movido a (18, 29). Longitud: 19
+2025-07-20 22:18:26,544 - game.snake - DEBUG - Movido a (19, 29). Longitud: 19
+2025-07-20 22:18:26,700 - game.snake - DEBUG - Movido a (20, 29). Longitud: 19
+2025-07-20 22:18:26,751 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:26,850 - game.snake - DEBUG - Movido a (20, 28). Longitud: 19
+2025-07-20 22:18:27,001 - game.snake - DEBUG - Movido a (20, 27). Longitud: 19
+2025-07-20 22:18:27,152 - game.snake - DEBUG - Movido a (20, 26). Longitud: 19
+2025-07-20 22:18:27,316 - game.snake - DEBUG - Movido a (20, 25). Longitud: 19
+2025-07-20 22:18:27,469 - game.snake - DEBUG - Movido a (20, 24). Longitud: 19
+2025-07-20 22:18:27,635 - game.snake - DEBUG - Movido a (20, 23). Longitud: 19
+2025-07-20 22:18:27,789 - game.snake - DEBUG - Movido a (20, 22). Longitud: 19
+2025-07-20 22:18:27,954 - game.snake - DEBUG - Movido a (20, 21). Longitud: 19
+2025-07-20 22:18:28,110 - game.snake - DEBUG - Movido a (20, 20). Longitud: 19
+2025-07-20 22:18:28,261 - game.snake - DEBUG - Movido a (20, 19). Longitud: 19
+2025-07-20 22:18:28,426 - game.snake - DEBUG - Movido a (20, 18). Longitud: 19
+2025-07-20 22:18:28,525 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:18:28,578 - game.snake - DEBUG - Movido a (19, 18). Longitud: 19
+2025-07-20 22:18:28,730 - game.snake - DEBUG - Movido a (18, 18). Longitud: 19
+2025-07-20 22:18:28,880 - game.snake - DEBUG - Movido a (17, 18). Longitud: 19
+2025-07-20 22:18:29,031 - game.snake - DEBUG - Movido a (16, 18). Longitud: 19
+2025-07-20 22:18:29,032 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:18:29,032 - game.fruit - DEBUG - Fruta generada en (10, 26)
+2025-07-20 22:18:29,033 - game.board - INFO - Nuevo puntaje: 170
+2025-07-20 22:18:29,183 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:18:29,183 - game.snake - DEBUG - Movido a (15, 18). Longitud: 20
+2025-07-20 22:18:29,333 - game.snake - DEBUG - Movido a (14, 18). Longitud: 20
+2025-07-20 22:18:29,485 - game.snake - DEBUG - Movido a (13, 18). Longitud: 20
+2025-07-20 22:18:29,635 - game.snake - DEBUG - Movido a (12, 18). Longitud: 20
+2025-07-20 22:18:29,802 - game.snake - DEBUG - Movido a (11, 18). Longitud: 20
+2025-07-20 22:18:29,955 - game.snake - DEBUG - Movido a (10, 18). Longitud: 20
+2025-07-20 22:18:30,073 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:30,106 - game.snake - DEBUG - Movido a (10, 19). Longitud: 20
+2025-07-20 22:18:30,256 - game.snake - DEBUG - Movido a (10, 20). Longitud: 20
+2025-07-20 22:18:30,406 - game.snake - DEBUG - Movido a (10, 21). Longitud: 20
+2025-07-20 22:18:30,555 - game.snake - DEBUG - Movido a (10, 22). Longitud: 20
+2025-07-20 22:18:30,721 - game.snake - DEBUG - Movido a (10, 23). Longitud: 20
+2025-07-20 22:18:30,875 - game.snake - DEBUG - Movido a (10, 24). Longitud: 20
+2025-07-20 22:18:31,007 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:31,040 - game.snake - DEBUG - Movido a (11, 24). Longitud: 20
+2025-07-20 22:18:31,193 - game.snake - DEBUG - Movido a (12, 24). Longitud: 20
+2025-07-20 22:18:31,359 - game.snake - DEBUG - Movido a (13, 24). Longitud: 20
+2025-07-20 22:18:31,509 - game.snake - DEBUG - Movido a (14, 24). Longitud: 20
+2025-07-20 22:18:31,675 - game.snake - DEBUG - Movido a (15, 24). Longitud: 20
+2025-07-20 22:18:31,842 - game.snake - DEBUG - Movido a (16, 24). Longitud: 20
+2025-07-20 22:18:31,861 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:31,996 - game.snake - DEBUG - Movido a (16, 25). Longitud: 20
+2025-07-20 22:18:32,063 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:18:32,163 - game.snake - DEBUG - Movido a (15, 25). Longitud: 20
+2025-07-20 22:18:32,318 - game.snake - DEBUG - Movido a (14, 25). Longitud: 20
+2025-07-20 22:18:32,468 - game.snake - DEBUG - Movido a (13, 25). Longitud: 20
+2025-07-20 22:18:32,621 - game.snake - DEBUG - Movido a (12, 25). Longitud: 20
+2025-07-20 22:18:32,773 - game.snake - DEBUG - Movido a (11, 25). Longitud: 20
+2025-07-20 22:18:32,924 - game.snake - DEBUG - Movido a (10, 25). Longitud: 20
+2025-07-20 22:18:32,943 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:33,076 - game.snake - DEBUG - Movido a (10, 26). Longitud: 20
+2025-07-20 22:18:33,077 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:18:33,077 - game.fruit - DEBUG - Fruta generada en (17, 29)
+2025-07-20 22:18:33,078 - game.board - INFO - Nuevo puntaje: 180
+2025-07-20 22:18:33,111 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:33,241 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:18:33,241 - game.snake - DEBUG - Movido a (11, 26). Longitud: 21
+2025-07-20 22:18:33,406 - game.snake - DEBUG - Movido a (12, 26). Longitud: 21
+2025-07-20 22:18:33,556 - game.snake - DEBUG - Movido a (13, 26). Longitud: 21
+2025-07-20 22:18:33,708 - game.snake - DEBUG - Movido a (14, 26). Longitud: 21
+2025-07-20 22:18:33,860 - game.snake - DEBUG - Movido a (15, 26). Longitud: 21
+2025-07-20 22:18:34,012 - game.snake - DEBUG - Movido a (16, 26). Longitud: 21
+2025-07-20 22:18:34,163 - game.snake - DEBUG - Movido a (17, 26). Longitud: 21
+2025-07-20 22:18:34,245 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:34,313 - game.snake - DEBUG - Movido a (17, 27). Longitud: 21
+2025-07-20 22:18:34,463 - game.snake - DEBUG - Movido a (17, 28). Longitud: 21
+2025-07-20 22:18:34,615 - game.snake - DEBUG - Movido a (17, 29). Longitud: 21
+2025-07-20 22:18:34,615 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:18:34,616 - game.fruit - DEBUG - Fruta generada en (26, 26)
+2025-07-20 22:18:34,616 - game.board - INFO - Nuevo puntaje: 190
+2025-07-20 22:18:34,667 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:34,765 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:18:34,766 - game.snake - DEBUG - Movido a (18, 29). Longitud: 22
+2025-07-20 22:18:34,932 - game.snake - DEBUG - Movido a (19, 29). Longitud: 22
+2025-07-20 22:18:35,083 - game.snake - DEBUG - Movido a (20, 29). Longitud: 22
+2025-07-20 22:18:35,248 - game.snake - DEBUG - Movido a (21, 29). Longitud: 22
+2025-07-20 22:18:35,400 - game.snake - DEBUG - Movido a (22, 29). Longitud: 22
+2025-07-20 22:18:35,565 - game.snake - DEBUG - Movido a (23, 29). Longitud: 22
+2025-07-20 22:18:35,715 - game.snake - DEBUG - Movido a (24, 29). Longitud: 22
+2025-07-20 22:18:35,866 - game.snake - DEBUG - Movido a (25, 29). Longitud: 22
+2025-07-20 22:18:36,016 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:36,016 - game.snake - DEBUG - Movido a (25, 28). Longitud: 22
+2025-07-20 22:18:36,166 - game.snake - DEBUG - Movido a (25, 27). Longitud: 22
+2025-07-20 22:18:36,319 - game.snake - DEBUG - Movido a (25, 26). Longitud: 22
+2025-07-20 22:18:36,387 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:36,470 - game.snake - DEBUG - Movido a (26, 26). Longitud: 22
+2025-07-20 22:18:36,470 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:18:36,471 - game.fruit - DEBUG - Fruta generada en (30, 19)
+2025-07-20 22:18:36,471 - game.board - INFO - Nuevo puntaje: 200
+2025-07-20 22:18:36,622 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:18:36,631 - game.snake - DEBUG - Movido a (27, 26). Longitud: 23
+2025-07-20 22:18:36,786 - game.snake - DEBUG - Movido a (28, 26). Longitud: 23
+2025-07-20 22:18:36,936 - game.snake - DEBUG - Movido a (29, 26). Longitud: 23
+2025-07-20 22:18:37,086 - game.snake - DEBUG - Movido a (30, 26). Longitud: 23
+2025-07-20 22:18:37,236 - game.snake - DEBUG - Movido a (31, 26). Longitud: 23
+2025-07-20 22:18:37,287 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:37,387 - game.snake - DEBUG - Movido a (31, 25). Longitud: 23
+2025-07-20 22:18:37,537 - game.snake - DEBUG - Movido a (31, 24). Longitud: 23
+2025-07-20 22:18:37,687 - game.snake - DEBUG - Movido a (31, 23). Longitud: 23
+2025-07-20 22:18:37,852 - game.snake - DEBUG - Movido a (31, 22). Longitud: 23
+2025-07-20 22:18:38,002 - game.snake - DEBUG - Movido a (31, 21). Longitud: 23
+2025-07-20 22:18:38,154 - game.snake - DEBUG - Movido a (31, 20). Longitud: 23
+2025-07-20 22:18:38,288 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:18:38,305 - game.snake - DEBUG - Movido a (30, 20). Longitud: 23
+2025-07-20 22:18:38,456 - game.snake - DEBUG - Movido a (29, 20). Longitud: 23
+2025-07-20 22:18:38,606 - game.snake - DEBUG - Movido a (28, 20). Longitud: 23
+2025-07-20 22:18:38,673 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:38,772 - game.snake - DEBUG - Movido a (28, 19). Longitud: 23
+2025-07-20 22:18:38,923 - game.snake - DEBUG - Movido a (28, 18). Longitud: 23
+2025-07-20 22:18:39,072 - game.snake - DEBUG - Movido a (28, 17). Longitud: 23
+2025-07-20 22:18:39,223 - game.snake - DEBUG - Movido a (28, 16). Longitud: 23
+2025-07-20 22:18:39,375 - game.snake - DEBUG - Movido a (28, 15). Longitud: 23
+2025-07-20 22:18:39,525 - game.snake - DEBUG - Movido a (28, 14). Longitud: 23
+2025-07-20 22:18:39,675 - game.snake - DEBUG - Movido a (28, 13). Longitud: 23
+2025-07-20 22:18:39,826 - game.snake - DEBUG - Movido a (28, 12). Longitud: 23
+2025-07-20 22:18:39,844 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:39,992 - game.snake - DEBUG - Movido a (29, 12). Longitud: 23
+2025-07-20 22:18:40,077 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:40,145 - game.snake - DEBUG - Movido a (29, 13). Longitud: 23
+2025-07-20 22:18:40,296 - game.snake - DEBUG - Movido a (29, 14). Longitud: 23
+2025-07-20 22:18:40,447 - game.snake - DEBUG - Movido a (29, 15). Longitud: 23
+2025-07-20 22:18:40,596 - game.snake - DEBUG - Movido a (29, 16). Longitud: 23
+2025-07-20 22:18:40,749 - game.snake - DEBUG - Movido a (29, 17). Longitud: 23
+2025-07-20 22:18:40,915 - game.snake - DEBUG - Movido a (29, 18). Longitud: 23
+2025-07-20 22:18:41,032 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:41,066 - game.snake - DEBUG - Movido a (30, 18). Longitud: 23
+2025-07-20 22:18:41,220 - game.snake - DEBUG - Movido a (31, 18). Longitud: 23
+2025-07-20 22:18:41,370 - game.snake - DEBUG - Movido a (32, 18). Longitud: 23
+2025-07-20 22:18:41,535 - game.snake - DEBUG - Movido a (33, 18). Longitud: 23
+2025-07-20 22:18:41,698 - game.snake - DEBUG - Movido a (34, 18). Longitud: 23
+2025-07-20 22:18:41,863 - game.snake - DEBUG - Movido a (35, 18). Longitud: 23
+2025-07-20 22:18:42,015 - game.snake - DEBUG - Movido a (36, 18). Longitud: 23
+2025-07-20 22:18:42,083 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:42,168 - game.snake - DEBUG - Movido a (36, 19). Longitud: 23
+2025-07-20 22:18:42,186 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:18:42,322 - game.snake - DEBUG - Movido a (35, 19). Longitud: 23
+2025-07-20 22:18:42,488 - game.snake - DEBUG - Movido a (34, 19). Longitud: 23
+2025-07-20 22:18:42,639 - game.snake - DEBUG - Movido a (33, 19). Longitud: 23
+2025-07-20 22:18:42,791 - game.snake - DEBUG - Movido a (32, 19). Longitud: 23
+2025-07-20 22:18:42,943 - game.snake - DEBUG - Movido a (31, 19). Longitud: 23
+2025-07-20 22:18:43,096 - game.snake - DEBUG - Movido a (30, 19). Longitud: 23
+2025-07-20 22:18:43,097 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:18:43,098 - game.fruit - DEBUG - Fruta generada en (29, 25)
+2025-07-20 22:18:43,098 - game.board - INFO - Nuevo puntaje: 210
+2025-07-20 22:18:43,250 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:18:43,250 - game.snake - DEBUG - Movido a (29, 19). Longitud: 24
+2025-07-20 22:18:43,416 - game.snake - DEBUG - Movido a (28, 19). Longitud: 24
+2025-07-20 22:18:43,566 - game.snake - DEBUG - Movido a (27, 19). Longitud: 24
+2025-07-20 22:18:43,633 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:43,718 - game.snake - DEBUG - Movido a (27, 20). Longitud: 24
+2025-07-20 22:18:43,834 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:43,868 - game.snake - DEBUG - Movido a (28, 20). Longitud: 24
+2025-07-20 22:18:44,019 - game.snake - DEBUG - Movido a (29, 20). Longitud: 24
+2025-07-20 22:18:44,171 - game.snake - DEBUG - Movido a (30, 20). Longitud: 24
+2025-07-20 22:18:44,288 - game.snake - DEBUG - Dirección cambiada a: DOWN
+2025-07-20 22:18:44,322 - game.snake - DEBUG - Movido a (30, 21). Longitud: 24
+2025-07-20 22:18:44,472 - game.snake - DEBUG - Movido a (30, 22). Longitud: 24
+2025-07-20 22:18:44,623 - game.snake - DEBUG - Movido a (30, 23). Longitud: 24
+2025-07-20 22:18:44,786 - game.snake - DEBUG - Movido a (30, 24). Longitud: 24
+2025-07-20 22:18:44,938 - game.snake - DEBUG - Movido a (30, 25). Longitud: 24
+2025-07-20 22:18:44,989 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:18:45,088 - game.snake - DEBUG - Movido a (29, 25). Longitud: 24
+2025-07-20 22:18:45,090 - game.snake - INFO - Serpiente creciendo. Nuevo tamaño pendiente: 1
+2025-07-20 22:18:45,091 - game.fruit - DEBUG - Fruta generada en (27, 0)
+2025-07-20 22:18:45,095 - game.board - INFO - Nuevo puntaje: 220
+2025-07-20 22:18:45,253 - game.snake - DEBUG - Creciendo. Pendiente: 0
+2025-07-20 22:18:45,253 - game.snake - DEBUG - Movido a (28, 25). Longitud: 25
+2025-07-20 22:18:45,420 - game.snake - DEBUG - Movido a (27, 25). Longitud: 25
+2025-07-20 22:18:45,572 - game.snake - DEBUG - Movido a (26, 25). Longitud: 25
+2025-07-20 22:18:45,723 - game.snake - DEBUG - Movido a (25, 25). Longitud: 25
+2025-07-20 22:18:45,741 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:45,872 - game.snake - DEBUG - Movido a (25, 24). Longitud: 25
+2025-07-20 22:18:46,023 - game.snake - DEBUG - Movido a (25, 23). Longitud: 25
+2025-07-20 22:18:46,172 - game.snake - DEBUG - Movido a (25, 22). Longitud: 25
+2025-07-20 22:18:46,338 - game.snake - DEBUG - Movido a (25, 21). Longitud: 25
+2025-07-20 22:18:46,489 - game.snake - DEBUG - Movido a (25, 20). Longitud: 25
+2025-07-20 22:18:46,642 - game.snake - DEBUG - Movido a (25, 19). Longitud: 25
+2025-07-20 22:18:46,795 - game.snake - DEBUG - Movido a (25, 18). Longitud: 25
+2025-07-20 22:18:46,959 - game.snake - DEBUG - Movido a (25, 17). Longitud: 25
+2025-07-20 22:18:47,060 - game.snake - DEBUG - Dirección cambiada a: RIGHT
+2025-07-20 22:18:47,124 - game.snake - DEBUG - Movido a (26, 17). Longitud: 25
+2025-07-20 22:18:47,275 - game.snake - DEBUG - Movido a (27, 17). Longitud: 25
+2025-07-20 22:18:47,341 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:47,440 - game.snake - DEBUG - Movido a (27, 16). Longitud: 25
+2025-07-20 22:18:47,591 - game.snake - DEBUG - Movido a (27, 15). Longitud: 25
+2025-07-20 22:18:47,741 - game.snake - DEBUG - Movido a (27, 14). Longitud: 25
+2025-07-20 22:18:47,893 - game.snake - DEBUG - Movido a (27, 13). Longitud: 25
+2025-07-20 22:18:48,058 - game.snake - DEBUG - Movido a (27, 12). Longitud: 25
+2025-07-20 22:18:48,225 - game.snake - DEBUG - Movido a (27, 11). Longitud: 25
+2025-07-20 22:18:48,390 - game.snake - DEBUG - Movido a (27, 10). Longitud: 25
+2025-07-20 22:18:48,553 - game.snake - DEBUG - Movido a (27, 9). Longitud: 25
+2025-07-20 22:18:48,705 - game.snake - DEBUG - Movido a (27, 8). Longitud: 25
+2025-07-20 22:18:48,856 - game.snake - DEBUG - Movido a (27, 7). Longitud: 25
+2025-07-20 22:18:49,005 - game.snake - DEBUG - Movido a (27, 6). Longitud: 25
+2025-07-20 22:18:49,156 - game.snake - DEBUG - Movido a (27, 5). Longitud: 25
+2025-07-20 22:18:49,310 - game.snake - DEBUG - Movido a (27, 4). Longitud: 25
+2025-07-20 22:18:49,474 - game.snake - DEBUG - Movido a (27, 3). Longitud: 25
+2025-07-20 22:18:49,626 - game.snake - DEBUG - Movido a (27, 2). Longitud: 25
+2025-07-20 22:18:49,780 - game.snake - DEBUG - Movido a (27, 1). Longitud: 25
+2025-07-20 22:18:49,932 - game.snake - DEBUG - Dirección cambiada a: LEFT
+2025-07-20 22:18:49,933 - game.snake - DEBUG - Movido a (26, 1). Longitud: 25
+2025-07-20 22:18:50,084 - game.snake - DEBUG - Movido a (25, 1). Longitud: 25
+2025-07-20 22:18:50,238 - game.snake - DEBUG - Movido a (24, 1). Longitud: 25
+2025-07-20 22:18:50,391 - game.snake - DEBUG - Movido a (23, 1). Longitud: 25
+2025-07-20 22:18:50,541 - game.snake - DEBUG - Movido a (22, 1). Longitud: 25
+2025-07-20 22:18:50,706 - game.snake - DEBUG - Movido a (21, 1). Longitud: 25
+2025-07-20 22:18:50,757 - game.snake - DEBUG - Dirección cambiada a: UP
+2025-07-20 22:18:50,856 - game.snake - DEBUG - Movido a (21, 0). Longitud: 25
+2025-07-20 22:18:51,006 - game.snake - DEBUG - Movido a (21, -1). Longitud: 25
+2025-07-20 22:18:51,007 - game.snake - WARNING - Colisión con borde en (21, -1)
+2025-07-20 22:18:51,007 - game.board - INFO - Juego terminado. Puntaje final: 220
+2025-07-20 22:18:53,205 - ui.button - INFO - Botón clickeado: Salir
+2025-07-20 22:18:53,205 - ui.menu - INFO - Saliendo del juego desde el menú
+2025-07-20 22:18:53,324 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 22:29:38,797 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 22:29:39,106 - __main__ - CRITICAL - Error crítico: 'MainMenu' object has no attribute 'start_game'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 27, in main
+    main_menu = MainMenu(screen, config, clock)  # Pásalo como parámetro
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 16, in __init__
+    self.buttons = self._create_buttons()
+                   ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 29, in _create_buttons
+    action=self.start_game
+           ^^^^^^^^^^^^^^^
+AttributeError: 'MainMenu' object has no attribute 'start_game'
+2025-07-20 22:29:39,198 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 22:33:29,402 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 22:33:29,657 - __main__ - CRITICAL - Error crítico: Button.__init__() got an unexpected keyword argument 'normal_color'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 27, in main
+    main_menu = MainMenu(screen, config, clock)  # Pásalo como parámetro
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 39, in __init__
+    self.buttons = self._create_buttons()
+                   ~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 51, in _create_buttons
+    Button(
+    ~~~~~~^
+        rect=pygame.Rect(center_x, 300, button_width, button_height),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        border_radius=10
+        ^^^^^^^^^^^^^^^^
+    ),
+    ^
+TypeError: Button.__init__() got an unexpected keyword argument 'normal_color'
+2025-07-20 22:33:29,721 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 22:35:14,108 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 22:35:14,400 - ui.button - DEBUG - Botón creado: JUGAR
+2025-07-20 22:35:14,402 - ui.button - DEBUG - Botón creado: SALIR
+2025-07-20 22:35:14,403 - ui.menu - DEBUG - Botones del menú creados
+2025-07-20 22:35:14,404 - __main__ - CRITICAL - Error crítico: 'MainMenu' object has no attribute 'animation_time'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 27, in main
+    main_menu = MainMenu(screen, config, clock)  # Pásalo como parámetro
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 40, in __init__
+    self.background = self._create_background()
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 81, in _create_background
+    self._draw_animated_gradient(background)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 101, in _draw_animated_gradient
+    wave = math.sin(y / 50 + self.animation_time) * 20
+                             ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MainMenu' object has no attribute 'animation_time'
+2025-07-20 22:35:14,492 - __main__ - INFO - Juego terminado correctamente
+2025-07-20 22:36:54,876 - __main__ - INFO - Iniciando juego Sneak
+2025-07-20 22:36:55,140 - ui.button - DEBUG - Botón creado: JUGAR
+2025-07-20 22:36:55,141 - ui.button - DEBUG - Botón creado: SALIR
+2025-07-20 22:36:55,141 - ui.menu - DEBUG - Botones del menú creados
+2025-07-20 22:36:55,153 - ui.menu - INFO - Menú principal inicializado
+2025-07-20 22:36:55,154 - ui.menu - INFO - Mostrando menú principal
+2025-07-20 22:36:55,157 - ui.button - ERROR - Error dibujando botón: unsupported operand type(s) for //: 'str' and 'int'
+2025-07-20 22:36:55,157 - __main__ - CRITICAL - Error crítico: unsupported operand type(s) for //: 'str' and 'int'
+Traceback (most recent call last):
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\main.py", line 28, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\menu.py", line 152, in run
+    button.draw(self.screen)
+    ~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\yeiso\Desktop\Carpetas\VsCode\Snake\ui\button.py", line 87, in draw
+    (self.text_color[0]//2, self.text_color[1]//2, self.text_color[2]//2),
+     ~~~~~~~~~~~~~~~~~~^^~
+TypeError: unsupported operand type(s) for //: 'str' and 'int'
+2025-07-20 22:36:55,236 - __main__ - INFO - Juego terminado correctamente
