@@ -1610,3 +1610,385 @@ Traceback (most recent call last):
      ~~~~~~~~~~~~~~~~~~^^~
 TypeError: unsupported operand type(s) for //: 'str' and 'int'
 2025-07-20 22:36:55,236 - __main__ - INFO - Juego terminado correctamente
+2025-10-11 20:22:50 - utils.logger - INFO - SnakeYCL logging system initialized
+2025-10-11 20:22:50 - __main__ - INFO - ==================================================
+2025-10-11 20:22:50 - __main__ - INFO - Starting SnakeYCL v1.0.0
+2025-10-11 20:22:50 - __main__ - INFO - Author: Yeison Arbey Carrillo Lemus (YACL)
+2025-10-11 20:22:50 - __main__ - INFO - ==================================================
+2025-10-11 20:22:50 - utils.config - INFO - Configuration loaded from: data\settings.yaml
+2025-10-11 20:22:50 - __main__ - INFO - Configuration loaded from: data\settings.yaml
+2025-10-11 20:22:50 - root - INFO - Pygame initialized successfully
+2025-10-11 20:22:50 - root - INFO - Display created: 800x600
+2025-10-11 20:22:50 - __main__ - CRITICAL - Unexpected error: 'MainMenu' object has no attribute 'font_title'
+Traceback (most recent call last):
+  File "main.py", line 114, in main
+    main_menu = MainMenu(screen, config, clock)
+  File "ui\menu.py", line 74, in __init__
+    self.title_surface = self._create_title()
+                         ~~~~~~~~~~~~~~~~~~^^
+  File "ui\menu.py", line 241, in _create_title
+    title_text = self.font_title.render(GAME_TITLE, True, Colors.TEXT_SECONDARY)
+                 ^^^^^^^^^^^^^^^
+AttributeError: 'MainMenu' object has no attribute 'font_title'
+2025-10-11 20:22:50 - __main__ - INFO - Pygame cleanup completed
+2025-10-11 20:37:11 - utils.logger - INFO - SnakeYCL logging system initialized
+2025-10-11 20:37:11 - __main__ - INFO - ==================================================
+2025-10-11 20:37:11 - __main__ - INFO - Starting SnakeYCL v1.0.0
+2025-10-11 20:37:11 - __main__ - INFO - Author: Yeison Arbey Carrillo Lemus (YACL)
+2025-10-11 20:37:11 - __main__ - INFO - ==================================================
+2025-10-11 20:37:11 - utils.config - INFO - Configuration loaded from: data\settings.yaml
+2025-10-11 20:37:11 - __main__ - INFO - Configuration loaded from: data\settings.yaml
+2025-10-11 20:37:11 - root - INFO - Pygame initialized successfully
+2025-10-11 20:37:11 - root - INFO - Display created: 800x600
+2025-10-11 20:37:11 - __main__ - CRITICAL - Unexpected error: 'MainMenu' object has no attribute 'font_title'
+Traceback (most recent call last):
+  File "main.py", line 114, in main
+    main_menu = MainMenu(screen, config, clock)
+  File "ui\menu.py", line 74, in __init__
+    self.font_subtitle = pygame.font.Font(None, 36)
+                         ^^^^^^^^^^^^^^^^^^^^
+  File "ui\menu.py", line 241, in _create_title
+    title_text = self.font_title.render(GAME_TITLE, True, Colors.TEXT_SECONDARY)
+                 ^^^^^^^^^^^^^^^
+AttributeError: 'MainMenu' object has no attribute 'font_title'
+2025-10-11 20:37:11 - __main__ - INFO - Pygame cleanup completed
+2025-10-11 21:01:57 - utils.logger - INFO - SnakeYCL logging system initialized
+2025-10-11 21:01:57 - __main__ - INFO - ==================================================
+2025-10-11 21:01:57 - __main__ - INFO - Starting SnakeYCL v1.0.0
+2025-10-11 21:01:57 - __main__ - INFO - Author: Yeison Arbey Carrillo Lemus (YACL)
+2025-10-11 21:01:57 - __main__ - INFO - ==================================================
+2025-10-11 21:01:57 - utils.config - INFO - Configuration loaded from: data\settings.yaml
+2025-10-11 21:01:57 - __main__ - INFO - Configuration loaded from: data\settings.yaml
+2025-10-11 21:01:57 - root - INFO - Pygame initialized successfully
+2025-10-11 21:01:57 - root - INFO - Display created: 800x600
+2025-10-11 21:01:57 - utils.records - WARNING - Invalid records file format
+2025-10-11 21:01:57 - utils.records - INFO - Records manager initialized
+2025-10-11 21:01:57 - ui.menu - INFO - Main menu initialized
+2025-10-11 21:01:57 - __main__ - INFO - Starting main menu
+2025-10-11 21:01:57 - game_events - INFO - EVENT: menu_start - Main menu started
+2025-10-11 21:01:57 - ui.menu - INFO - Starting main menu loop
+2025-10-11 21:02:32 - ui.button - INFO - Botón clickeado: PLAY GAME
+2025-10-11 21:02:32 - game_events - INFO - EVENT: menu_action - Start game selected
+2025-10-11 21:02:32 - ui.menu - INFO - Starting new game from menu
+2025-10-11 21:02:32 - game.snake - INFO - Snake initialized with 2 segments
+2025-10-11 21:02:32 - game.fruit - INFO - Fruit initialized
+2025-10-11 21:02:32 - game.board - INFO - Game board initialized
+2025-10-11 21:02:32 - game_events - INFO - EVENT: game_start - New game started
+2025-10-11 21:02:32 - game.board - INFO - Game reset for new session
+2025-10-11 21:02:32 - game.board - INFO - Starting main game loop
+2025-10-11 21:02:37 - game_events - INFO - EVENT: fruit_eaten - Score: 0 -> 15 (+15)
+2025-10-11 21:02:37 - game.board - INFO - Fruit eaten! Score: 15, Length: 3
+2025-10-11 21:02:40 - game_events - INFO - EVENT: fruit_eaten - Score: 15 -> 25 (+10)
+2025-10-11 21:02:40 - game.board - INFO - Fruit eaten! Score: 25, Length: 4
+2025-10-11 21:02:42 - game_events - INFO - EVENT: fruit_eaten - Score: 25 -> 35 (+10)
+2025-10-11 21:02:42 - game.board - INFO - Fruit eaten! Score: 35, Length: 5
+2025-10-11 21:02:57 - game_events - INFO - EVENT: collision - wall collision at (6, -1)
+2025-10-11 21:02:57 - game.board - INFO - Game ending collision: Collision: wall at (6, -1)
+2025-10-11 21:02:57 - utils.records - INFO - New high score added: 35 by YACL
+2025-10-11 21:02:57 - utils.records - INFO - Saved 1 records to file
+2025-10-11 21:02:57 - game_events - INFO - EVENT: high_score - New high score: 35
+2025-10-11 21:02:57 - game.board - INFO - NEW HIGH SCORE: 35
+2025-10-11 21:02:57 - game_events - INFO - EVENT: game_over - Final score: 35, Duration: 24.5s
+2025-10-11 21:02:57 - game.board - INFO - Game ended - Score: 35, Duration: 24.5s
+2025-10-11 21:02:57 - game.board - INFO - Game loop ended with score: 35
+2025-10-11 21:02:57 - game_events - INFO - EVENT: game_completed - Game completed with score: 35
+2025-10-11 21:02:57 - ui.menu - INFO - Game completed with final score: 35
+2025-10-11 21:03:03 - ui.button - INFO - Botón clickeado: PLAY GAME
+2025-10-11 21:03:03 - game_events - INFO - EVENT: menu_action - Start game selected
+2025-10-11 21:03:03 - ui.menu - INFO - Starting new game from menu
+2025-10-11 21:03:03 - game.snake - INFO - Snake initialized with 2 segments
+2025-10-11 21:03:03 - game.fruit - INFO - Fruit initialized
+2025-10-11 21:03:03 - game.board - INFO - Game board initialized
+2025-10-11 21:03:03 - game_events - INFO - EVENT: game_start - New game started
+2025-10-11 21:03:03 - game.board - INFO - Game reset for new session
+2025-10-11 21:03:03 - game.board - INFO - Starting main game loop
+2025-10-11 21:03:04 - game_events - INFO - EVENT: game_pause - Game paused
+2025-10-11 21:03:04 - game.board - INFO - Game paused
+2025-10-11 21:03:05 - game_events - INFO - EVENT: game_quit - User quit game
+2025-10-11 21:03:05 - game.board - INFO - Game loop ended (quit)
+2025-10-11 21:03:05 - game_events - INFO - EVENT: game_completed - Game completed with score: 0
+2025-10-11 21:03:05 - ui.menu - INFO - Game completed with final score: 0
+2025-10-11 21:03:07 - game_events - INFO - EVENT: menu_end - Main menu ended
+2025-10-11 21:03:07 - ui.menu - INFO - Main menu loop ended
+2025-10-11 21:03:07 - __main__ - INFO - Game session completed successfully
+2025-10-11 21:03:07 - __main__ - INFO - Pygame cleanup completed
+2025-10-11 21:34:02 - utils.logger - INFO - SnakeYCL logging system initialized
+2025-10-11 21:34:02 - __main__ - INFO - ==================================================
+2025-10-11 21:34:02 - __main__ - INFO - Starting SnakeYCL v1.0.0
+2025-10-11 21:34:02 - __main__ - INFO - Author: Yeison Arbey Carrillo Lemus (YACL)
+2025-10-11 21:34:02 - __main__ - INFO - ==================================================
+2025-10-11 21:34:02 - utils.config - INFO - Configuration loaded from: data\settings.yaml
+2025-10-11 21:34:02 - __main__ - INFO - Configuration loaded from: data\settings.yaml
+2025-10-11 21:34:03 - root - INFO - Pygame initialized successfully
+2025-10-11 21:34:03 - root - INFO - Display created: 800x600
+2025-10-11 21:34:03 - utils.records - INFO - Loaded 1 records from file
+2025-10-11 21:34:03 - utils.records - INFO - Records manager initialized
+2025-10-11 21:34:03 - ui.menu - INFO - Main menu initialized
+2025-10-11 21:34:03 - __main__ - INFO - Starting main menu
+2025-10-11 21:34:03 - game_events - INFO - EVENT: menu_start - Main menu started
+2025-10-11 21:34:03 - ui.menu - INFO - Starting main menu loop
+2025-10-11 21:34:07 - ui.button - INFO - Botón clickeado: PLAY GAME
+2025-10-11 21:34:07 - game_events - INFO - EVENT: menu_action - Start game selected
+2025-10-11 21:34:07 - ui.menu - INFO - Starting new game from menu
+2025-10-11 21:34:07 - game.snake - INFO - Snake initialized with 2 segments
+2025-10-11 21:34:07 - game.fruit - INFO - Fruit initialized
+2025-10-11 21:34:07 - game.board - INFO - Game board initialized
+2025-10-11 21:34:07 - game_events - INFO - EVENT: game_start - New game started
+2025-10-11 21:34:07 - game.board - INFO - Game reset for new session
+2025-10-11 21:34:07 - game.board - INFO - Starting main game loop
+2025-10-11 21:34:15 - game_events - INFO - EVENT: fruit_eaten - Score: 0 -> 10 (+10)
+2025-10-11 21:34:15 - game.board - INFO - Fruit eaten! Score: 10, Length: 3
+2025-10-11 21:34:23 - game_events - INFO - EVENT: fruit_eaten - Score: 10 -> 20 (+10)
+2025-10-11 21:34:23 - game.board - INFO - Fruit eaten! Score: 20, Length: 4
+2025-10-11 21:34:26 - game_events - INFO - EVENT: collision - wall collision at (40, 10)
+2025-10-11 21:34:26 - game.board - INFO - Game ending collision: Collision: wall at (40, 10)
+2025-10-11 21:34:26 - utils.records - INFO - New high score added: 20 by YACL
+2025-10-11 21:34:26 - utils.records - INFO - Saved 2 records to file
+2025-10-11 21:34:26 - game_events - INFO - EVENT: high_score - New high score: 20
+2025-10-11 21:34:26 - game.board - INFO - NEW HIGH SCORE: 20
+2025-10-11 21:34:26 - game_events - INFO - EVENT: game_over - Final score: 20, Duration: 18.4s
+2025-10-11 21:34:26 - game.board - INFO - Game ended - Score: 20, Duration: 18.4s
+2025-10-11 21:34:26 - game.board - INFO - Game loop ended with score: 20
+2025-10-11 21:34:26 - game_events - INFO - EVENT: game_completed - Game completed with score: 20
+2025-10-11 21:34:26 - ui.menu - INFO - Game completed with final score: 20
+2025-10-11 21:34:27 - ui.button - INFO - Botón clickeado: PLAY GAME
+2025-10-11 21:34:27 - game_events - INFO - EVENT: menu_action - Start game selected
+2025-10-11 21:34:27 - ui.menu - INFO - Starting new game from menu
+2025-10-11 21:34:27 - game.snake - INFO - Snake initialized with 2 segments
+2025-10-11 21:34:27 - game.fruit - INFO - Fruit initialized
+2025-10-11 21:34:27 - game.board - INFO - Game board initialized
+2025-10-11 21:34:27 - game_events - INFO - EVENT: game_start - New game started
+2025-10-11 21:34:27 - game.board - INFO - Game reset for new session
+2025-10-11 21:34:27 - game.board - INFO - Starting main game loop
+2025-10-11 21:34:28 - game_events - INFO - EVENT: game_pause - Game paused
+2025-10-11 21:34:28 - game.board - INFO - Game paused
+2025-10-11 21:34:29 - game_events - INFO - EVENT: game_resume - Game resumed
+2025-10-11 21:34:29 - game.board - INFO - Game resumed
+2025-10-11 21:34:29 - game_events - INFO - EVENT: game_pause - Game paused
+2025-10-11 21:34:29 - game.board - INFO - Game paused
+2025-10-11 21:34:31 - game_events - INFO - EVENT: game_resume - Game resumed
+2025-10-11 21:34:31 - game.board - INFO - Game resumed
+2025-10-11 21:34:31 - game_events - INFO - EVENT: game_pause - Game paused
+2025-10-11 21:34:31 - game.board - INFO - Game paused
+2025-10-11 21:34:32 - game_events - INFO - EVENT: game_resume - Game resumed
+2025-10-11 21:34:32 - game.board - INFO - Game resumed
+2025-10-11 21:34:32 - game_events - INFO - EVENT: game_pause - Game paused
+2025-10-11 21:34:32 - game.board - INFO - Game paused
+2025-10-11 21:34:32 - game_events - INFO - EVENT: game_resume - Game resumed
+2025-10-11 21:34:32 - game.board - INFO - Game resumed
+2025-10-11 21:34:33 - game_events - INFO - EVENT: collision - wall collision at (40, 15)
+2025-10-11 21:34:33 - game.board - INFO - Game ending collision: Collision: wall at (40, 15)
+2025-10-11 21:34:33 - utils.records - INFO - New high score added: 0 by YACL
+2025-10-11 21:34:33 - utils.records - INFO - Saved 3 records to file
+2025-10-11 21:34:33 - game_events - INFO - EVENT: high_score - New high score: 0
+2025-10-11 21:34:33 - game.board - INFO - NEW HIGH SCORE: 0
+2025-10-11 21:34:33 - game_events - INFO - EVENT: game_over - Final score: 0, Duration: 5.5s
+2025-10-11 21:34:33 - game.board - INFO - Game ended - Score: 0, Duration: 5.5s
+2025-10-11 21:34:33 - game.board - INFO - Game loop ended with score: 0
+2025-10-11 21:34:33 - game_events - INFO - EVENT: game_completed - Game completed with score: 0
+2025-10-11 21:34:33 - ui.menu - INFO - Game completed with final score: 0
+2025-10-11 21:34:33 - game_events - INFO - EVENT: menu_action - Exit game selected
+2025-10-11 21:34:33 - ui.menu - INFO - Exiting game from menu
+2025-10-11 21:34:33 - game_events - INFO - EVENT: menu_end - Main menu ended
+2025-10-11 21:34:33 - ui.menu - INFO - Main menu loop ended
+2025-10-11 21:34:33 - __main__ - INFO - Game session completed successfully
+2025-10-11 21:34:33 - __main__ - INFO - Pygame cleanup completed
+2025-10-12 02:54:08 - utils.logger - INFO - SnakeYCL logging system initialized
+2025-10-12 02:54:08 - __main__ - INFO - ==================================================
+2025-10-12 02:54:08 - __main__ - INFO - Starting SnakeYCL v1.0.0
+2025-10-12 02:54:08 - __main__ - INFO - Author: Yeison Arbey Carrillo Lemus (YACL)
+2025-10-12 02:54:08 - __main__ - INFO - ==================================================
+2025-10-12 02:54:08 - utils.config - INFO - Configuration loaded from: data\settings.yaml
+2025-10-12 02:54:08 - __main__ - INFO - Configuration loaded from: data\settings.yaml
+2025-10-12 02:54:08 - root - INFO - Pygame initialized successfully
+2025-10-12 02:54:08 - root - INFO - Display created: 800x600
+2025-10-12 02:54:08 - utils.records - INFO - Loaded 3 records from file
+2025-10-12 02:54:08 - utils.records - INFO - Records manager initialized
+2025-10-12 02:54:08 - ui.menu - INFO - Main menu initialized
+2025-10-12 02:54:08 - __main__ - INFO - Starting main menu
+2025-10-12 02:54:08 - game_events - INFO - EVENT: menu_start - Main menu started
+2025-10-12 02:54:08 - ui.menu - INFO - Starting main menu loop
+2025-10-12 02:54:10 - ui.button - INFO - Botón clickeado: PLAY GAME
+2025-10-12 02:54:10 - game_events - INFO - EVENT: menu_action - Start game selected
+2025-10-12 02:54:10 - ui.menu - INFO - Starting new game from menu
+2025-10-12 02:54:10 - game.snake - INFO - Snake initialized with 2 segments
+2025-10-12 02:54:10 - game.fruit - INFO - Fruit initialized
+2025-10-12 02:54:10 - game.board - INFO - Game board initialized
+2025-10-12 02:54:10 - game_events - INFO - EVENT: game_start - New game started
+2025-10-12 02:54:10 - game.board - INFO - Game reset for new session
+2025-10-12 02:54:10 - game.board - INFO - Starting main game loop
+2025-10-12 02:54:13 - game_events - INFO - EVENT: collision - wall collision at (40, 15)
+2025-10-12 02:54:13 - game.board - INFO - Game ending collision: Collision: wall at (40, 15)
+2025-10-12 02:54:13 - utils.records - INFO - New high score added: 0 by YACL
+2025-10-12 02:54:13 - utils.records - INFO - Saved 4 records to file
+2025-10-12 02:54:13 - game_events - INFO - EVENT: high_score - New high score: 0
+2025-10-12 02:54:13 - game.board - INFO - NEW HIGH SCORE: 0
+2025-10-12 02:54:13 - game_events - INFO - EVENT: game_over - Final score: 0, Duration: 3.1s
+2025-10-12 02:54:13 - game.board - INFO - Game ended - Score: 0, Duration: 3.1s
+2025-10-12 02:54:13 - game.board - INFO - Game loop ended with score: 0
+2025-10-12 02:54:13 - game_events - INFO - EVENT: game_completed - Game completed with score: 0
+2025-10-12 02:54:13 - ui.menu - INFO - Game completed with final score: 0
+2025-10-12 02:54:19 - game_events - INFO - EVENT: menu_action - Start game selected
+2025-10-12 02:54:19 - ui.menu - INFO - Starting new game from menu
+2025-10-12 02:54:19 - game.snake - INFO - Snake initialized with 2 segments
+2025-10-12 02:54:19 - game.fruit - INFO - Fruit initialized
+2025-10-12 02:54:19 - game.board - INFO - Game board initialized
+2025-10-12 02:54:19 - game_events - INFO - EVENT: game_start - New game started
+2025-10-12 02:54:19 - game.board - INFO - Game reset for new session
+2025-10-12 02:54:19 - game.board - INFO - Starting main game loop
+2025-10-12 02:54:23 - game_events - INFO - EVENT: fruit_eaten - Score: 0 -> 10 (+10)
+2025-10-12 02:54:23 - game.board - INFO - Fruit eaten! Score: 10, Length: 3
+2025-10-12 02:54:26 - game_events - INFO - EVENT: fruit_eaten - Score: 10 -> 20 (+10)
+2025-10-12 02:54:26 - game.board - INFO - Fruit eaten! Score: 20, Length: 4
+2025-10-12 02:54:30 - game_events - INFO - EVENT: fruit_eaten - Score: 20 -> 35 (+15)
+2025-10-12 02:54:30 - game.board - INFO - Fruit eaten! Score: 35, Length: 5
+2025-10-12 02:54:35 - game_events - INFO - EVENT: fruit_eaten - Score: 35 -> 45 (+10)
+2025-10-12 02:54:35 - game.board - INFO - Fruit eaten! Score: 45, Length: 6
+2025-10-12 02:54:39 - game_events - INFO - EVENT: fruit_eaten - Score: 45 -> 70 (+25)
+2025-10-12 02:54:39 - game.board - INFO - Fruit eaten! Score: 70, Length: 7
+2025-10-12 02:54:43 - game_events - INFO - EVENT: fruit_eaten - Score: 70 -> 85 (+15)
+2025-10-12 02:54:43 - game.board - INFO - Fruit eaten! Score: 85, Length: 8
+2025-10-12 02:54:47 - game_events - INFO - EVENT: fruit_eaten - Score: 85 -> 110 (+25)
+2025-10-12 02:54:47 - game.board - INFO - Fruit eaten! Score: 110, Length: 9
+2025-10-12 02:54:51 - game_events - INFO - EVENT: fruit_eaten - Score: 110 -> 120 (+10)
+2025-10-12 02:54:51 - game.board - INFO - Fruit eaten! Score: 120, Length: 10
+2025-10-12 02:54:55 - game_events - INFO - EVENT: fruit_eaten - Score: 120 -> 130 (+10)
+2025-10-12 02:54:55 - game.board - INFO - Fruit eaten! Score: 130, Length: 11
+2025-10-12 02:54:56 - game_events - INFO - EVENT: collision - wall collision at (40, 26)
+2025-10-12 02:54:56 - game.board - INFO - Game ending collision: Collision: wall at (40, 26)
+2025-10-12 02:54:56 - utils.records - INFO - New high score added: 130 by YACL
+2025-10-12 02:54:56 - utils.records - INFO - Saved 5 records to file
+2025-10-12 02:54:56 - game_events - INFO - EVENT: high_score - New high score: 130
+2025-10-12 02:54:56 - game.board - INFO - NEW HIGH SCORE: 130
+2025-10-12 02:54:56 - game_events - INFO - EVENT: game_over - Final score: 130, Duration: 36.7s
+2025-10-12 02:54:56 - game.board - INFO - Game ended - Score: 130, Duration: 36.7s
+2025-10-12 02:54:56 - game.board - INFO - Game loop ended with score: 130
+2025-10-12 02:54:56 - game_events - INFO - EVENT: game_completed - Game completed with score: 130
+2025-10-12 02:54:56 - ui.menu - INFO - Game completed with final score: 130
+2025-10-12 02:54:58 - ui.button - INFO - Botón clickeado: PLAY GAME
+2025-10-12 02:54:58 - game_events - INFO - EVENT: menu_action - Start game selected
+2025-10-12 02:54:58 - ui.menu - INFO - Starting new game from menu
+2025-10-12 02:54:58 - game.snake - INFO - Snake initialized with 2 segments
+2025-10-12 02:54:58 - game.fruit - INFO - Fruit initialized
+2025-10-12 02:54:58 - game.board - INFO - Game board initialized
+2025-10-12 02:54:58 - game_events - INFO - EVENT: game_start - New game started
+2025-10-12 02:54:58 - game.board - INFO - Game reset for new session
+2025-10-12 02:54:58 - game.board - INFO - Starting main game loop
+2025-10-12 02:54:59 - game_events - INFO - EVENT: game_quit - User quit game
+2025-10-12 02:54:59 - game.board - INFO - Game loop ended (quit)
+2025-10-12 02:54:59 - game_events - INFO - EVENT: game_completed - Game completed with score: 0
+2025-10-12 02:54:59 - ui.menu - INFO - Game completed with final score: 0
+2025-10-12 02:55:01 - game_events - INFO - EVENT: menu_end - Main menu ended
+2025-10-12 02:55:01 - ui.menu - INFO - Main menu loop ended
+2025-10-12 02:55:01 - __main__ - INFO - Game session completed successfully
+2025-10-12 02:55:01 - __main__ - INFO - Pygame cleanup completed
+2025-10-12 02:57:12 - utils.logger - INFO - SnakeYCL logging system initialized
+2025-10-12 02:57:12 - __main__ - INFO - ==================================================
+2025-10-12 02:57:12 - __main__ - INFO - Starting SnakeYCL v1.0.0
+2025-10-12 02:57:12 - __main__ - INFO - Author: Yeison Arbey Carrillo Lemus (YACL)
+2025-10-12 02:57:12 - __main__ - INFO - ==================================================
+2025-10-12 02:57:12 - utils.config - INFO - Configuration loaded from: data\settings.yaml
+2025-10-12 02:57:12 - __main__ - INFO - Configuration loaded from: data\settings.yaml
+2025-10-12 02:57:12 - root - INFO - Pygame initialized successfully
+2025-10-12 02:57:12 - root - INFO - Display created: 800x600
+2025-10-12 02:57:12 - utils.records - INFO - Loaded 5 records from file
+2025-10-12 02:57:12 - utils.records - INFO - Records manager initialized
+2025-10-12 02:57:12 - ui.menu - INFO - Main menu initialized
+2025-10-12 02:57:12 - __main__ - INFO - Starting main menu
+2025-10-12 02:57:12 - game_events - INFO - EVENT: menu_start - Main menu started
+2025-10-12 02:57:12 - ui.menu - INFO - Starting main menu loop
+2025-10-12 02:57:12 - __main__ - CRITICAL - Unexpected error: 'MainMenu' object has no attribute 'font'
+Traceback (most recent call last):
+  File "main.py", line 116, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "ui\menu.py", line 587, in run
+    self.draw()
+    ~~~~~~~~~^^
+  File "ui\menu.py", line 422, in draw
+    title_surface = self.font.render("SnakeYCL", True, (255, 255, 255))
+                    ^^^^^^^^^
+AttributeError: 'MainMenu' object has no attribute 'font'
+2025-10-12 02:57:12 - __main__ - INFO - Pygame cleanup completed
+2025-10-12 02:59:02 - utils.logger - INFO - SnakeYCL logging system initialized
+2025-10-12 02:59:02 - __main__ - INFO - ==================================================
+2025-10-12 02:59:02 - __main__ - INFO - Starting SnakeYCL v1.0.0
+2025-10-12 02:59:02 - __main__ - INFO - Author: Yeison Arbey Carrillo Lemus (YACL)
+2025-10-12 02:59:02 - __main__ - INFO - ==================================================
+2025-10-12 02:59:02 - utils.config - INFO - Configuration loaded from: data\settings.yaml
+2025-10-12 02:59:02 - __main__ - INFO - Configuration loaded from: data\settings.yaml
+2025-10-12 02:59:03 - root - INFO - Pygame initialized successfully
+2025-10-12 02:59:03 - root - INFO - Display created: 800x600
+2025-10-12 02:59:03 - utils.records - INFO - Loaded 5 records from file
+2025-10-12 02:59:03 - utils.records - INFO - Records manager initialized
+2025-10-12 02:59:03 - ui.menu - INFO - Main menu initialized
+2025-10-12 02:59:03 - __main__ - INFO - Starting main menu
+2025-10-12 02:59:03 - game_events - INFO - EVENT: menu_start - Main menu started
+2025-10-12 02:59:03 - ui.menu - INFO - Starting main menu loop
+2025-10-12 02:59:03 - __main__ - CRITICAL - Unexpected error: 'MainMenu' object has no attribute 'font'
+Traceback (most recent call last):
+  File "main.py", line 116, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "ui\menu.py", line 587, in run
+    This is the main entry point for the menu system.
+        ^^^^^^^^^^^
+  File "ui\menu.py", line 422, in draw
+    """
+    
+AttributeError: 'MainMenu' object has no attribute 'font'
+2025-10-12 02:59:03 - __main__ - INFO - Pygame cleanup completed
+2025-10-12 03:01:31 - utils.logger - INFO - SnakeYCL logging system initialized
+2025-10-12 03:01:31 - __main__ - INFO - ==================================================
+2025-10-12 03:01:31 - __main__ - INFO - Starting SnakeYCL v1.0.0
+2025-10-12 03:01:31 - __main__ - INFO - Author: Yeison Arbey Carrillo Lemus (YACL)
+2025-10-12 03:01:31 - __main__ - INFO - ==================================================
+2025-10-12 03:01:31 - utils.config - INFO - Configuration loaded from: data\settings.yaml
+2025-10-12 03:01:31 - __main__ - INFO - Configuration loaded from: data\settings.yaml
+2025-10-12 03:01:31 - root - INFO - Pygame initialized successfully
+2025-10-12 03:01:31 - root - INFO - Display created: 800x600
+2025-10-12 03:01:31 - utils.records - INFO - Loaded 5 records from file
+2025-10-12 03:01:31 - utils.records - INFO - Records manager initialized
+2025-10-12 03:01:31 - ui.menu - INFO - Main menu initialized
+2025-10-12 03:01:31 - __main__ - INFO - Starting main menu
+2025-10-12 03:01:31 - game_events - INFO - EVENT: menu_start - Main menu started
+2025-10-12 03:01:31 - ui.menu - INFO - Starting main menu loop
+2025-10-12 03:01:31 - __main__ - CRITICAL - Unexpected error: 'MainMenu' object has no attribute 'font'
+Traceback (most recent call last):
+  File "main.py", line 116, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "ui\menu.py", line 587, in run
+    for button in self.about_buttons:
+        ^^^^^^^^^^^
+  File "ui\menu.py", line 422, in draw
+    """
+    
+AttributeError: 'MainMenu' object has no attribute 'font'
+2025-10-12 03:01:31 - __main__ - INFO - Pygame cleanup completed
+2025-10-12 03:03:19 - utils.logger - INFO - SnakeYCL logging system initialized
+2025-10-12 03:03:19 - __main__ - INFO - ==================================================
+2025-10-12 03:03:19 - __main__ - INFO - Starting SnakeYCL v1.0.0
+2025-10-12 03:03:19 - __main__ - INFO - Author: Yeison Arbey Carrillo Lemus (YACL)
+2025-10-12 03:03:19 - __main__ - INFO - ==================================================
+2025-10-12 03:03:19 - utils.config - INFO - Configuration loaded from: data\settings.yaml
+2025-10-12 03:03:19 - __main__ - INFO - Configuration loaded from: data\settings.yaml
+2025-10-12 03:03:19 - root - INFO - Pygame initialized successfully
+2025-10-12 03:03:19 - root - INFO - Display created: 800x600
+2025-10-12 03:03:19 - utils.records - INFO - Loaded 5 records from file
+2025-10-12 03:03:19 - utils.records - INFO - Records manager initialized
+2025-10-12 03:03:19 - ui.menu - INFO - Main menu initialized
+2025-10-12 03:03:19 - __main__ - INFO - Starting main menu
+2025-10-12 03:03:19 - game_events - INFO - EVENT: menu_start - Main menu started
+2025-10-12 03:03:19 - ui.menu - INFO - Starting main menu loop
+2025-10-12 03:03:19 - __main__ - CRITICAL - Unexpected error: 'MainMenu' object has no attribute 'font'
+Traceback (most recent call last):
+  File "main.py", line 116, in main
+    main_menu.run()
+    ~~~~~~~~~~~~~^^
+  File "ui\menu.py", line 587, in run
+  File "ui\menu.py", line 422, in draw
+    """
+    
+AttributeError: 'MainMenu' object has no attribute 'font'
+2025-10-12 03:03:19 - __main__ - INFO - Pygame cleanup completed

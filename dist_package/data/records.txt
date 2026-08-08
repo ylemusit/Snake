@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "game": "SnakeYCL",
+    "version": "1.0.0",
+    "author": "Yeison Arbey Carrillo Lemus (200725)",
+    "last_updated": "2025-10-11T20:44:50.564665"
+  },
+  "records": [
+    {
+      "score": 100,
+      "player_name": "YACL",
+      "date": "2025-10-11T20:44:37.349895",
+      "duration": 56.74459886550903,
+      "difficulty": "normal",
+      "snake_length": 11,
+      "fruits_eaten": 8
+    },
+    {
+      "score": 60,
+      "player_name": "YACL",
+      "date": "2025-10-11T20:43:39.135916",
+      "duration": 12.514251708984375,
+      "difficulty": "normal",
+      "snake_length": 7,
+      "fruits_eaten": 4
+    },
+    {
+      "score": 0,
+      "player_name": "YACL",
+      "date": "2025-10-11T20:44:44.612636",
+      "duration": 5.238258600234985,
+      "difficulty": "normal",
+      "snake_length": 3,
+      "fruits_eaten": 0
+    },
+    {
+      "score": 0,
+      "player_name": "YACL",
+      "date": "2025-10-11T20:44:50.564116",
+      "duration": 4.588769435882568,
+      "difficulty": "normal",
+      "snake_length": 3,
+      "fruits_eaten": 0
+    }
+  ]
+}

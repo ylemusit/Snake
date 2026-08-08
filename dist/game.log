@@ -40,3 +40,25 @@
 2025-07-20 23:47:17,425 - game.board - INFO - Nuevo puntaje: 70
 2025-07-20 23:47:45,095 - game.board - INFO - Nuevo puntaje: 80
 2025-07-20 23:57:24,189 - __main__ - INFO - Juego terminado correctamente
+2025-07-21 00:47:35,118 - __main__ - INFO - Iniciando juego Sneak
+2025-07-21 00:47:35,443 - ui.menu - INFO - Menú principal inicializado
+2025-07-21 00:47:35,443 - ui.menu - INFO - Mostrando menú principal
+2025-07-21 00:47:45,256 - ui.button - INFO - Botón clickeado: JUGAR
+2025-07-21 00:47:45,359 - ui.menu - INFO - Iniciando nueva partida
+2025-07-21 00:47:45,360 - game.snake - INFO - Serpiente inicializada
+2025-07-21 00:47:45,360 - game.board - INFO - Tablero de juego inicializado
+2025-07-21 00:47:45,360 - game.board - INFO - Iniciando partida
+2025-07-21 00:47:47,707 - game.board - INFO - Nuevo puntaje: 10
+2025-07-21 00:47:51,343 - game.board - INFO - Nuevo puntaje: 20
+2025-07-21 00:47:54,448 - game.board - INFO - Nuevo puntaje: 30
+2025-07-21 00:47:57,578 - game.board - INFO - Nuevo puntaje: 40
+2025-07-21 00:47:59,420 - game.board - INFO - Nuevo puntaje: 50
+2025-07-21 00:48:07,254 - game.board - INFO - Nuevo puntaje: 60
+2025-07-21 00:48:14,440 - game.board - INFO - Nuevo puntaje: 70
+2025-07-21 00:48:19,061 - game.board - INFO - Nuevo puntaje: 80
+2025-07-21 00:48:24,004 - game.board - INFO - Nuevo puntaje: 90
+2025-07-21 00:48:30,174 - game.board - INFO - Nuevo puntaje: 100
+2025-07-21 00:48:36,375 - game.board - INFO - Nuevo puntaje: 110
+2025-07-21 00:48:41,014 - ui.button - INFO - Botón clickeado: SALIR
+2025-07-21 00:48:41,014 - ui.menu - INFO - Saliendo del juego
+2025-07-21 00:48:41,137 - __main__ - INFO - Juego terminado correctamente
